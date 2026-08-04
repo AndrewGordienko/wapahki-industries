@@ -1,0 +1,31 @@
+# secrets — never commit
+.env
+
+# local database
+data/crm.db
+data/crm.db-*
+
+# resumable scraped research can be large and may contain copyrighted public text;
+# commit the cited distilled guide/playbook blocks, not the raw local corpus
+data/research/
+data/reddit/
+
+# node
+node_modules/
+npm-debug.log*
+
+# generated caches and interrupted atomic writes
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
+
+# local data — SQLite DBs/backups, CRM exports, and JSON/log dumps.
+# Kept local: large (2GB+) and contains real contact PII. Never publish.
+/data/
+/wapahki-crm.csv
+
+# one-off import scripts that embed real Gmail threads + contact PII verbatim
+scripts/import-wapahki-sent-threads-2026-08-01.js
+scripts/import-gnk-sent-threads-2026-08-01.js
+scripts/import-outagehub-sent-threads-2026-08-01.js

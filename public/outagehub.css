@@ -1,0 +1,156 @@
+.oh-targets {
+  border-top: 1px solid var(--border);
+  background: #fafbfc;
+}
+
+.oh-targets summary {
+  padding: 11px 16px;
+  color: var(--text-2);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.oh-targets summary span {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.oh-target-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+  gap: 9px;
+  padding: 0 12px 13px;
+}
+
+.oh-target {
+  padding: 11px 12px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--panel);
+}
+
+.oh-target-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.oh-company {
+  flex: 1;
+  font-weight: 720;
+}
+
+.oh-company a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.oh-company a:hover { color: var(--accent-text); }
+
+.oh-hq {
+  margin-top: 1px;
+  color: var(--muted);
+  font-size: 10.5px;
+}
+
+.oh-target p {
+  margin: 8px 0;
+  color: var(--text-2);
+  font-size: 11.5px;
+  line-height: 1.45;
+}
+
+.oh-source-inline {
+  color: var(--accent-text);
+  text-decoration: none;
+}
+
+.oh-contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
+.oh-avatar {
+  width: 29px;
+  height: 29px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--accent-text);
+  background: var(--accent-soft);
+  font-size: 10px;
+  font-weight: 750;
+}
+
+.oh-contact-main {
+  min-width: 0;
+  flex: 1;
+}
+
+.oh-contact-name {
+  font-size: 11.5px;
+  font-weight: 700;
+}
+
+.oh-contact-title {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 10.5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.oh-target-actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.oh-target-actions select {
+  max-width: 82px;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 10.5px;
+}
+
+.oh-email-card {
+  width: min(720px, 94vw);
+  max-height: 88vh;
+  overflow: auto;
+}
+
+.oh-draft-note {
+  margin-top: 10px;
+  padding: 8px 10px;
+  border-radius: 7px;
+  color: var(--amber-text);
+  background: var(--amber-soft);
+  font-size: 11.5px;
+}
+
+.oh-mailrow {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 12.5px;
+}
+
+.oh-mailrow span {
+  width: 54px;
+  color: var(--muted);
+}
+
+.oh-mailrow strong { flex: 1; }
+
+.oh-email-body {
+  padding: 16px 0;
+  white-space: pre-wrap;
+  font-size: 13.5px;
+  line-height: 1.58;
+}

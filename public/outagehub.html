@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>OutageHub — opportunity workspace</title>
+  <link rel="icon" href="/outagehub.ico" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/opportunity-workspace.css" />
+  <link rel="stylesheet" href="/outagehub.css" />
+</head>
+<body>
+  <header class="workspace-top">
+    <div class="workspace-brand">
+      <img src="/outagehub.ico" alt="" />
+      <div>
+        <h1>OutageHub</h1>
+        <p>Find outage-exposed workflows. Map the action. Reach the person who owns it.</p>
+      </div>
+    </div>
+    <div class="workspace-actions">
+      <a class="btn btn-ghost" href="/?c=outagehub">OutageHub outreach</a>
+      <a class="btn btn-ghost" href="/outagehub/grants">Grants</a>
+      <a class="btn btn-ghost" href="/gnk">GnK</a>
+      <a class="btn btn-ghost" href="/accounts.html?product=outage">Outage accounts</a>
+      <label class="idea-research-count">ideas
+        <input id="discoverCount" type="number" min="1" max="12" value="6" />
+      </label>
+      <button id="discoverBtn" class="btn btn-primary">Find ideas</button>
+    </div>
+  </header>
+
+  <section id="statbar" class="workspace-statbar"></section>
+
+  <section class="workspace-guardrail">
+    <b>Working claim:</b> OutageHub turns public outage data from supported Canadian utilities into a
+    normalized, location-matched feed for existing incident workflows. Drafts below are research invitations,
+    not site-impact, latency, or coverage promises.
+  </section>
+
+  <section id="runPanel" class="idea-run hidden">
+    <div class="idea-run-head">
+      <span><span id="runSpin" class="spin">◍</span> <b id="runTitle">Research scouts finding ideas…</b></span>
+      <button id="runHide" class="btn small btn-ghost">Hide</button>
+    </div>
+    <pre id="runLog"></pre>
+  </section>
+
+  <section class="workspace-controls">
+    <input id="search" type="search" placeholder="Search ideas, evidence, buyers or sectors…" />
+    <div class="idea-segments" id="statusSeg"></div>
+    <select id="categoryFilter" class="idea-select" aria-label="Filter by sector"></select>
+    <select id="sortBy" class="idea-select" aria-label="Sort ideas"></select>
+    <span id="visibleCount" class="workspace-count"></span>
+  </section>
+
+  <main id="board" class="idea-board"></main>
+  <div id="empty" class="idea-empty hidden">No OutageHub ideas match these filters.</div>
+
+  <div id="emailModal" class="modal hidden">
+    <div class="modal-card oh-email-card">
+      <div class="seq-top">
+        <div>
+          <h3>First touch</h3>
+          <div id="emailWho" class="seq-contact"></div>
+        </div>
+        <button id="emailClose" class="btn btn-ghost">Close</button>
+      </div>
+      <div class="oh-draft-note">Draft — verify the person, title and evidence before sending.</div>
+      <div class="oh-mailrow"><span>To</span><strong id="emailTo"></strong></div>
+      <div class="oh-mailrow"><span>Subject</span><strong id="emailSubject"></strong>
+        <button id="copySubject" class="btn xsmall">Copy</button>
+      </div>
+      <div id="emailBody" class="oh-email-body"></div>
+      <button id="copyEmail" class="btn btn-primary">Copy full email</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/idea-workspace.js"></script>
+  <script src="/outagehub.js"></script>
+</body>
+</html>

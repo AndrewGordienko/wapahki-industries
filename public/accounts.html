@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Problem Found — Accounts</title>
+  <link rel="icon" type="image/svg+xml" href="/crm.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/crm.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo"><img src="/crm.svg" alt="Problem Found" /></div>
+      <div class="brand-text">
+        <h1>Problem Found</h1>
+        <p class="sub" id="brandSub">Turn messy operational data into decision systems — proven in 30, 60 or 90 days.</p>
+      </div>
+    </div>
+    <div class="top-actions">
+      <span id="apolloPill" class="pill pill-muted">Apollo: …</span>
+      <a class="btn btn-primary" href="/">◎ CRM</a>
+      <a class="btn btn-ghost" href="/wahpaki/grants">$ Grant Radar</a>
+      <a class="btn btn-ghost" href="/outagehub">⚡ OutageHub</a>
+      <a class="btn btn-ghost" href="/problems">◍ Problem Radar</a>
+      <button class="btn" id="tasksBtn">◷ Outreach calendar <span id="taskBadge" class="badge hidden">0</span></button>
+      <button class="btn btn-primary" id="addBtn">+ Account</button>
+    </div>
+  </header>
+
+  <nav class="tabs" id="productTabs"></nav>
+
+  <section class="metricbar" id="metricbar"></section>
+
+  <section class="controls">
+    <input id="search" class="search" type="search" placeholder="Filter accounts by name, industry…" />
+    <div class="filter-row">
+      <select id="stageFilter" class="mini-select"><option value="">All stages</option></select>
+      <label class="chk"><input type="checkbox" id="gateOnly" /> Outreach-ready only (65+ &amp; a signal)</label>
+    </div>
+  </section>
+
+  <details class="playbook" id="playbook"></details>
+
+  <main id="accounts" class="aboard"></main>
+
+  <div id="empty" class="empty hidden">
+    <p>No accounts under this product yet. Click <strong>+ Account</strong> to add one,
+      or promote a problem from the <a href="/problems">Problem Radar</a>.</p>
+  </div>
+
+  <!-- Account detail (built in JS) -->
+  <div id="acctModal" class="modal hidden">
+    <div class="modal-card acct-card" id="acctCard"></div>
+  </div>
+
+  <!-- Outreach calendar drawer (built in JS) -->
+  <div id="taskModal" class="modal hidden">
+    <div class="modal-card task-card">
+      <div class="seq-top">
+        <div><h3>Outreach calendar</h3><div class="seq-contact">Who to contact, when, and what the system is learning from every outcome.</div></div>
+        <button id="taskClose" class="btn btn-ghost">Close</button>
+      </div>
+      <div id="taskBody"></div>
+    </div>
+  </div>
+
+  <!-- Add account -->
+  <div id="addModal" class="modal hidden">
+    <div class="modal-card">
+      <h3>New account</h3>
+      <label>Organization name<input id="addName" type="text" placeholder="e.g. Aggreko Canada" /></label>
+      <label>Product
+        <select id="addProduct" class="mini-select"></select>
+      </label>
+      <label>Industry / sector (optional)<input id="addIndustry" type="text" placeholder="e.g. Generator services" /></label>
+      <label>Hypothesis (optional)<textarea id="addHypothesis" rows="3" placeholder="We believe [org] experiences [workflow] because of [evidence]…"></textarea></label>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" id="addCancel">Cancel</button>
+        <button class="btn btn-primary" id="addSave">Create account</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="/app.js"></script>
+</body>
+</html>

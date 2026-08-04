@@ -1,0 +1,67 @@
+{
+  "_comment": "Steers scripts/discover-problems.js. The agent hunts for expensive, recurring, measurable Canadian operational problems that are poorly served by current software, have usable data, and where Problem Found could build an MVP fast and get paid a cut of the savings. Edit the sectors/angles to point the hunt; the agent is told to prefer big B2B/government/industrial workflows over consumer apps.",
+
+  "geography": "Canada (favour Ontario / GTA and other major metros, but national B2B/industrial problems are welcome)",
+
+  "business_model": "Problem Found walks into an organisation, shows it is losing a large, measurable amount of money on a specific manual or underserved workflow, and offers to build the software that fixes it in exchange for a cut of the savings (a fee in the ~$50k–$300k range that is a fraction of what the organisation saves in year one). We only want problems where that pitch is credible.",
+
+  "must_have": [
+    "Expensive: a single organisation plausibly loses six or seven figures per year (CAD) to this problem.",
+    "Recurring: the pain repeats daily/weekly/monthly or every project, not a one-off.",
+    "Measurable: there is a concrete metric (hours, dollars, error rate, downtime, penalties) we could move and show.",
+    "Underserved by software: no dominant off-the-shelf tool already solves it well for this segment.",
+    "Usable data exists: the inputs needed to build a demo are public, purchasable, or already sitting in the customer's systems.",
+    "Identifiable buyer: a role that owns both the budget and the pain.",
+    "Demoable: we could build a convincing MVP with synthetic or public data in days, not months.",
+    "Repeatable: many similar Canadian organisations share the same problem."
+  ],
+
+  "avoid": [
+    "Consumer apps and anything depending on viral growth or advertising.",
+    "Problems requiring a large proprietary data moat, hardware, or heavy regulatory approval before any value.",
+    "Generic 'add AI to X' with no specific expensive workflow.",
+    "Pure research problems with no organisation that would pay to have them solved.",
+    "Markets dominated by an entrenched, well-loved incumbent tool."
+  ],
+
+  "sectors": [
+    "Construction, developers, general contractors and infrastructure owners",
+    "Municipal and provincial government operations and permitting",
+    "Utilities, energy, power reliability and field service",
+    "Logistics, trucking, warehousing and cold chain",
+    "Healthcare operations, clinics, long-term care and diagnostics scheduling",
+    "Insurance, claims, underwriting and fraud",
+    "Manufacturing, food processing and industrial maintenance",
+    "Legal, accounting, compliance and professional services back-office",
+    "Real estate, property management and facilities",
+    "Mining, forestry, agriculture and natural resources",
+    "Transit, aviation and ports",
+    "Financial services operations and reconciliation",
+    "Legacy enterprise systems, mainframe operations and mission-critical back-office workflows"
+  ],
+
+  "angles": [
+    "Manual spreadsheet workflows that quietly cost a team days every week",
+    "Penalties, fines, liquidated damages or clawbacks caused by missed deadlines or bad paperwork",
+    "Reconciliation between systems that never talk to each other",
+    "Expensive expert time spent on work a system could pre-assemble",
+    "Dispatch, scheduling and routing decisions made by gut feel",
+    "Evidence, audit and claim reconstruction done from scattered documents",
+    "Waste, downtime, spoilage or unnecessary truck-rolls that data could prevent",
+    "Compliance reporting assembled by hand under deadline",
+    "Critical workflows constrained by scarce mainframe, COBOL, industrial-control or domain specialists whose preparatory work and decision evidence could be captured"
+  ],
+
+  "seed_queries": [
+    "Canadian construction delay claims cost billions inefficiency",
+    "Ontario municipal permitting backlog cost delays",
+    "Canada trucking empty miles deadhead cost",
+    "Canadian hospital operating room scheduling inefficiency cost",
+    "Canadian insurance claims manual processing cost",
+    "Canada food processing spoilage waste cost operations",
+    "Ontario long-term care staffing scheduling cost overtime",
+    "Canadian utility outage field service dispatch cost",
+    "company mainframe engineer skills shortage backlog cost Canada",
+    "company institutional knowledge shortage operations training program Canada"
+  ]
+}

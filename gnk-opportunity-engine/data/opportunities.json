@@ -1,0 +1,1019 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-29T00:41:42.975Z",
+  "opportunities": [
+    {
+      "id": "ontario-excess-soil-reuse-preclearance",
+      "title": "Ontario excess-soil reuse pre-clearance",
+      "sector": "Civil construction, environmental consulting and regulated soil management",
+      "geography": "Ontario infrastructure and land-development projects subject to O. Reg. 406/19",
+      "summary": "Research hold. The regulation creates a repeated, document-heavy destination-assessment workflow, and 2026-2027 regulatory timing is strong. The proposed pre-clearance wedge remains commercially unproven because QP judgment is mandatory, destination acceptance changes quickly, public registry data is incomplete and incumbents already manage soil records and tracking.",
+      "peopleImpact": "Qualified persons and environmental teams could receive a faster, traceable first pass over analytical results and destination constraints. Dispatchers and site supervisors could face fewer late routing changes, while the QP and receiving site would retain final authority.",
+      "currentWorkflow": "For affected projects, a project leader retains a qualified person to prepare or supervise past-use, sampling, characterization and destination-assessment work. Environmental staff compare laboratory results with applicable standards and candidate sites, obtain acceptance, update required documents and track each load. Reviews occur for each relevant project, stockpile and changed destination; every transported load must be accounted for. The evidence does not establish how many comparisons at named accounts remain manual.",
+      "buyer": "Director or Vice-President of Environment, Sustainability or Major Projects at a contractor or owner; a consulting-firm practice leader may also fund a productivity pilot. Authority to approve CAD $40k inside 90 days is unverified.",
+      "champion": "Environmental Manager, Environmental Project Manager or Ontario-qualified P.Eng./P.Geo. acting as the qualified person.",
+      "valueUnit": "QP review-hours per stockpile; days from laboratory result to approved destination; verified tonnes or cubic metres beneficially reused; rejected or rerouted loads; truck-kilometres and actual disposal/haul cost avoided.",
+      "valueHypothesis": "Provisional project-level attributable value range: CAD $60k-$200k, requiring a paid evidence sprint. Formula: measured QP preparation-hours saved × loaded professional rate, plus customer-confirmed volume moved to a lower-cost accepted destination × actual disposal-and-haul cost difference, plus documented rejected-load or remobilization costs avoided. No reuse volume, acceptance, labour saving or cost differential is treated as observed until confirmed from a completed project; registry totals and synthetic routing cannot establish customer savings.",
+      "solutionWedge": "Parse laboratory certificates and characterization tables; apply version-controlled Ontario standards and declared site constraints; identify mismatches and missing evidence; compare only sites with current written acceptance and capacity confirmation; and generate a cited review packet for explicit QP approval. Do not automate final compliance conclusions or hauling authorization.",
+      "demoConcept": "Use synthetic data for three stockpiles and five destinations. Reject two options with visible parameter-to-standard mismatches, expire one option lacking current acceptance, rank two remaining options by declared distance and cost, and show a QP approving or overriding the recommendation with an audit trail.",
+      "dataNeeded": [
+        "Laboratory certificates, detection limits and normalized analytical results",
+        "Sampling plan, characterization report, stockpile identifiers and quantities",
+        "Current Ontario standards, Soil Rules and relevant site-specific instruments",
+        "Candidate-site land use, applicable standards, written acceptance, capacity and operating dates",
+        "Haul rates, disposal or reuse fees, truck capacity and route distance",
+        "Registry and load-tracking exports",
+        "Historical QP decisions, overrides and reasons",
+        "Existing SoilFLO or other document/tracking workflows to identify the uncovered decision step"
+      ],
+      "risks": [
+        "Final destination and compliance decisions are regulated professional work and must remain with a qualified person.",
+        "Receiving-site capacity, acceptance and commercial terms can expire quickly.",
+        "RPRA says its public data is not independently validated and currently omits some destination addresses and transferred volumes.",
+        "SoilFLO already supports tracking, records, sampling-result attachments and destination-related workflows; differentiation is not established.",
+        "Laboratory PDF extraction, units, non-detect treatment and standard-version errors could create material risk.",
+        "Named accounts have not confirmed the frequency, cost or manual nature of destination comparisons.",
+        "Contractor, owner and consulting-firm procurement may not support a CAD $40k pilot inside 90 days.",
+        "Avoided disposal or haul value cannot be attributed until actual acceptance and movements occur."
+      ],
+      "evidence": [
+        {
+          "claim": "The consolidated regulation current from January 1, 2026 requires a qualified-person destination assessment for applicable projects and specifies the information it must contain.",
+          "url": "https://www.ontario.ca/laws/regulation/190406",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Ontario's current fact sheet requires affected project leaders to file a registry notice, retain a qualified person and implement a system accounting for each load and final destination.",
+          "url": "https://www.ontario.ca/document/excess-soil-fact-sheets/excess-soil-management-and-reuse-requirements-project-areas",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "RPRA published the 2025 registry dataset on April 24, 2026 and states that submitted data is not independently validated and that the download currently omits some destination addresses and transferred volumes.",
+          "url": "https://rpra.ca/public-reports/excess-soil-registry-data/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Ontario's current regulation schedules a restriction beginning January 1, 2027 on landfilling excess soil meeting specified reuse standards, subject to exceptions and QP determinations.",
+          "url": "https://www.ontario.ca/laws/regulation/190406",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "SoilFLO markets established tracking, record-keeping, sampling-result attachment and compliance functionality, so digital tickets and document storage are not a sufficient wedge.",
+          "url": "https://soilflo.com/facilities/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "A pre-clearance review tool follows logically from the mandated comparisons, but public evidence does not prove a material manual gap or a 90-day buying path at any named account.",
+          "url": "https://www.ontario.ca/laws/regulation/190406",
+          "observedAt": "2026-07-28",
+          "kind": "inference",
+          "sourceType": "primary"
+        }
+      ],
+      "accounts": [
+        {
+          "name": "Aecon Group",
+          "domain": "aecon.com",
+          "signal": "The supplied Darlington Environmental Specialist posting assigns soil-plan, sampling, import/export and reuse-option duties under O. Reg. 406/19; live project-level buying authority is not established.",
+          "signalUrl": "https://jobs.aecon.com/job/Bowmanville-Environmental-Specialist-ON/599250817",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Seek the Darlington Environmental Manager and propose a completed-project replay; require confirmation that the account—not a consultant or owner—controls the relevant pilot budget."
+        },
+        {
+          "name": "Thomas Cavanagh Construction",
+          "domain": "thomascavanagh.ca",
+          "signal": "Ottawa's 2026 Kanata Lakes record identifies the contractor working under a repeatedly reviewed soil-management plan.",
+          "signalUrl": "https://engage.ottawa.ca/kanata-lakes-golf-course-proposed-redevelopment",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Route through the project environmental or EHS manager, then identify the executive holding environmental-technology budget and the retained QP."
+        },
+        {
+          "name": "EXP",
+          "domain": "exp.com",
+          "signal": "The supplied Ottawa job signal describes excess-soil execution, technical reporting, data evaluation, coordination and QP capability, but does not prove an active software-buying initiative.",
+          "signalUrl": "https://ca.linkedin.com/jobs/view/environmental-project-manager-at-exp-4367620152",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Position EXP as the professional-review owner and potential design partner; validate whether a practice leader can approve a productivity sprint inside 90 days."
+        },
+        {
+          "name": "Enbridge Gas",
+          "domain": "enbridgegas.com",
+          "signal": "Its project environmental report identifies O. Reg. 406/19 registration as a required approval.",
+          "signalUrl": "https://www.enbridgegas.com/-/media/Extranet-Pages/about-us/Projects/Waubuno-Gathering-System-and-Compressor-Replacement-Project/Waubuno-ER_aoda_SD_redacted.pdf?hash=9D45CF86547EFDD5E508278ECC3336C0&la=en&rev=264835a6984744b08618a08e4d19758b",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Route through project environmental management and its retained QP; expect owner procurement and security review to challenge the 90-day close assumption."
+        }
+      ],
+      "verdict": "research",
+      "whyNow": "The regulation is current from January 2026, RPRA released 2025 registry data in April 2026, and a landfill restriction is scheduled for January 2027. This creates a genuine planning window, but it does not by itself prove account-specific urgency or budget authority.",
+      "thirtyDayProof": "Run a paid replay on one completed project with the QP's approved outputs as ground truth. Measure deterministic extraction accuracy, parameter and unit validation, missing-evidence recall, QP preparation time, override rate and elapsed time to a review-ready destination packet. Treat reuse and cost savings as unproven unless actual written acceptance, movement and rates support them. Continue only if the QP validates safety and the budget owner confirms a sub-90-day procurement route.",
+      "score": {
+        "pain": 14,
+        "budget": 14,
+        "data": 8,
+        "timing": 12,
+        "engineeringGap": 7,
+        "access": 4,
+        "repeatability": 5,
+        "total": 64,
+        "rationale": "14+14+8+12+7+4+5=64. Current law and repeatability are strong, and large contractors can plausibly fund a pilot. The score remains below threshold because economic pain is not quantified, critical destination data is dynamic, incumbent coverage is material, internal workflows are unverified and no reachable approving buyer is evidenced."
+      },
+      "stage": "research",
+      "createdAt": "2026-07-28T22:02:59.822Z",
+      "updatedAt": "2026-07-28T22:02:59.822Z"
+    },
+    {
+      "id": "ontario-collection-exception-proof",
+      "title": "Municipal waste-collection SLA exception and proof desk",
+      "sector": "Waste collection and municipal field service",
+      "geography": "Ontario, focused on recently transitioned recycling and new municipal collection contracts",
+      "summary": "This is the strongest candidate because Toronto's June 2026 audit directly quantifies missed pickups and calls for better ticket, GPS and daily-report controls, while Ontario's producer-responsibility transition created fresh private-operator workflows. It remains below threshold because Toronto anonymized the sampled providers, the named accounts are not shown to have those deficiencies, mature route/proof-of-service products already exist, and Circular Materials may control tickets, standards or budget.",
+      "peopleImpact": "A properly bounded console could give customer-care and dispatch staff one evidence packet, reduce unnecessary recollections and improve resident response. It must not automatically reject complaints, score drivers for discipline or infer contractual liability without human review.",
+      "currentWorkflow": "For each daily route and each complaint, customer-care or dispatch staff inspect the address, route plan, vehicle GPS, driver codes or notes, photographs and contract rules. A supervisor decides whether to recollect, close, dispute or escalate and retains evidence for SLA reporting. Toronto directly observed this control environment for unnamed contractors; the named haulers' specific process, ticket frequency and failure rate are not public.",
+      "buyer": "Private-operator collection or operational-effectiveness executive. Graham Wathen is publicly identified as Emterra's Vice President of Collection Operations, Ontario. A 2025 municipal agreement identifies Brad Harper at Miller as Vice-President, Operational Effectiveness and Culture, which is more current and precise than the candidate's generic Vice-President Operations title. E360S's economic buyer remains unverified.",
+      "champion": "Regional Operations Manager, municipal Contract Manager, Customer Care Manager or Dispatch Manager for one contract area. Scott Sexton may be an E360S integration route, but public evidence does not establish budget ownership.",
+      "valueUnit": "Coordinator minutes per ticket; percentage resolved within SLA; avoidable return truck rolls; repeat complaints; whole-street misses detected before complaints; evidence completeness; and contract deductions successfully avoided or upheld.",
+      "valueHypothesis": "Conservative account-specific value range is CAD $0 because the Toronto findings cannot be attributed to Miller, Emterra or E360S. Sprint formula: attributable value = verified coordinator hours removed × loaded rate + avoided unnecessary return trips × fully loaded trip cost + verified deductions avoided − false-positive recollections − incremental operating cost. Observed inputs include 7,045 missed pickups in Toronto's sampled contracts, new operator assignments and a CAD $2,009,897.50 first-year Brant collection award; none is an observed savings input for a named account. A paid sprint must establish baseline, matched control and attribution before any share-of-savings case.",
+      "solutionWedge": "A reviewer-controlled exception console over one contract area's approved exports. It reconstructs the service event from ticket, route, GPS, driver code and photograph, identifies missing evidence and generates a proof packet. It recommends recollect, close or escalate but never automatically rejects a resident complaint or disciplines a driver.",
+      "demoConcept": "Show a synthetic 250-stop route with GPS pings, driver codes and 12 complaints. Identify a whole-street gap, three documented set-out exceptions, two cases with insufficient evidence and four recollections. Let the dispatcher override one recommendation and export a timestamped evidence bundle.",
+      "dataNeeded": [
+        "Service-request records with address, timestamps and disposition",
+        "Route plans, stop sequence, truck and shift assignments",
+        "GPS or telematics records at contractually useful intervals",
+        "Driver status codes, notes, photographs and lift or sensor events where available",
+        "Applicable contract SLAs, response windows, deduction rules and reporting definitions",
+        "Return-trip, overtime, repeat-complaint and deduction history",
+        "Written confirmation of whether the hauler or Circular Materials controls each dataset and decision"
+      ],
+      "risks": [
+        "Toronto's audited vendors are unnamed; attributing its findings to any target account would be false.",
+        "Circular Materials may control customer-service intake, data definitions, technology or budget under the producer-responsibility model.",
+        "Routeware, Rubicon, eLogii and other products already provide route progress, exception handling and proof of service.",
+        "Miller has demonstrated enterprise technology adoption, internal systems expertise and telematics integration in an adjacent fleet workflow.",
+        "GPS and driver data create privacy, labour-relations and surveillance risks.",
+        "Contract interpretation requires legal review; software cannot make binding liability or deduction decisions.",
+        "No public evidence establishes a reachable private buyer able to approve CAD $40k within 90 days."
+      ],
+      "evidence": [
+        {
+          "claim": "Toronto's June 2026 audit-at-a-glance reports 7,045 missed pickups, including 41 whole-street misses, in sampled collection contracts from January through June 2025.",
+          "url": "https://www.toronto.ca/legdocs/mmis/2026/au/bgrd/backgroundfile-288739.pdf",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Toronto's Audit Committee adopted recommendations requiring contracted providers to address 311 requests, provide complete GPS data and support checks on daily-report accuracy; City Council consideration was scheduled for July 29–31, 2026 and had not occurred by the run date.",
+          "url": "https://secure.toronto.ca/council/agenda-item.do?item=2026.AU13.7",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Halton's current missed-collection page directs Blue Box-only complaints to Miller Waste Systems.",
+          "url": "https://www.halton.ca/for-residents/recycling-waste/missed-collection",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Simcoe's 2026 guide directs recycling missed-collection, cart-repair and cart-delivery inquiries to Emterra beginning January 1, 2026.",
+          "url": "https://simcoe.ca/wp-content/uploads/2025/12/2026-Sorting-Guide.pdf",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "The County of Brant recommended a seven-year E360S collection award beginning June 1, 2027, with a first-year price of CAD $2,009,897.50 before HST.",
+          "url": "https://pub-brant.escribemeetings.com/FileStream.ashx?DocumentId=74660",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Miller reports 2,400 employees and service across 97 municipalities, supporting funding capacity but not proving missed-service leakage.",
+          "url": "https://millerwaste.ca/miller-waste-celebrates-65-years-of-service/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "A 2025 municipal agreement identifies Brad Harper as Miller's Vice-President, Operational Effectiveness and Culture and supplies a public corporate email route.",
+          "url": "https://greatermadawaska.civicweb.net/document/101738/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Miller has already implemented centralized fleet software, API and Geotab integrations and employs a corporate systems specialist, demonstrating internal change and integration capability in an adjacent workflow.",
+          "url": "https://www.amcsgroup.com/resources/blogs/driving-efficiency-at-scale-how-miller-waste-transformed-fleet-maintenance-culture/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "secondary"
+        },
+        {
+          "claim": "The audit supports the category-level workflow and product demo, but it does not establish deficiencies, savings or purchasing intent at Miller, Emterra or E360S.",
+          "url": "https://www.toronto.ca/legdocs/mmis/2026/au/bgrd/backgroundfile-288739.pdf",
+          "observedAt": "2026-07-28",
+          "kind": "inference",
+          "sourceType": "primary"
+        }
+      ],
+      "accounts": [
+        {
+          "name": "Miller Waste Systems",
+          "domain": "millerwaste.ca",
+          "signal": "Halton currently routes Blue Box-only missed-collection inquiries directly to Miller, while Miller reports 2,400 employees and service across 97 municipalities.",
+          "signalUrl": "https://www.halton.ca/for-residents/recycling-waste/missed-collection",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Brad Harper is publicly documented as Vice-President, Operational Effectiveness and Culture. Pair that route with the Halton-area operations/customer-care manager, but first establish whether Miller or Circular Materials controls the tickets, GPS evidence and pilot budget."
+        },
+        {
+          "name": "Emterra Environmental",
+          "domain": "emterra.ca",
+          "signal": "Simcoe directs recycling missed-collection and cart inquiries to Emterra following the January 1, 2026 transition.",
+          "signalUrl": "https://simcoe.ca/wp-content/uploads/2025/12/2026-Sorting-Guide.pdf",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Graham Wathen is publicly named Vice President of Collection Operations, Ontario. Recruit the Simcoe regional operations or customer-care manager and confirm contractual data rights before proposing price."
+        },
+        {
+          "name": "Environmental 360 Solutions",
+          "domain": "e360s.ca",
+          "signal": "The County of Brant recommended E360S for a seven-year collection contract beginning June 1, 2027, creating a pre-go-live design window.",
+          "signalUrl": "https://pub-brant.escribemeetings.com/FileStream.ashx?DocumentId=74660",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Use the future Brant contract manager and Scott Sexton as discovery or integration routes, but identify an operations executive with budget authority. The 2027 start is useful for design validation, not evidence of a pilot purchase inside 90 days."
+        }
+      ],
+      "verdict": "research",
+      "whyNow": "Ontario completed the Blue Box transition on December 31, 2025; current municipal pages now direct complaints to private operators. Toronto published a highly relevant audit in June 2026, and E360S has a 2027 contract preparation window. These are strong timing signals, but Toronto Council consideration was still pending and the audit does not name the target operators.",
+      "thirtyDayProof": "Secure one contract area and sample at least four weeks of de-identified tickets, routes and GPS. Reconstruct historical events and measure evidence completeness, handling minutes, recollections, repeats and deductions. Compare the console with incumbent route/proof tools and run a matched prospective queue. Proceed only if the operator controls the data and budget, reviewers confirm material residual exceptions, and annualized attributable value supports CAD $40k.",
+      "score": {
+        "pain": 14,
+        "budget": 11,
+        "data": 9,
+        "timing": 14,
+        "engineeringGap": 4,
+        "access": 6,
+        "repeatability": 5,
+        "total": 63,
+        "rationale": "14+11+9+14+4+6+5=63. The Toronto audit supplies unusually direct pain and control evidence, and the Ontario transition plus new contracts create strong timing. Large private operators plausibly can fund a pilot, but budget ownership and a 90-day approval path are not evidenced. Ticket and GPS data clearly exist in the category, yet access at the named accounts is unconfirmed. Mature incumbent products and Miller's demonstrated technology capability sharply reduce the engineering-gap score. The configured workflow could repeat across many contracts if a residual gap is proven."
+      },
+      "stage": "research",
+      "createdAt": "2026-07-28T22:15:56.612Z",
+      "updatedAt": "2026-07-28T22:15:56.612Z"
+    },
+    {
+      "id": "ontario-ldc-locate-exception-control",
+      "title": "Ontario LDC locate-deadline exception control",
+      "sector": "Electricity distribution, utility locating and damage prevention",
+      "geography": "Ontario electricity local distribution companies",
+      "summary": "Research hold. Ontario has a measurable deadline problem and large recurring locate programs, but the proposed exception layer is not yet shown to fill a software or engineering gap at a named LDC. Current filings disclose substantial existing technology investment and strong compliance at one target.",
+      "peopleImpact": "Locate supervisors, analysts and contract administrators could spend less time reconciling statuses, providers and invoices. Field locators could receive clearer priorities, while authorized people would retain every safety-critical clearance decision.",
+      "currentWorkflow": "Ontario One Call routes requests to infrastructure owners. LDC staff and contracted providers process requests daily, update completion feedback, resolve access and field exceptions, inspect or audit work and reconcile invoices. Standard locates are generally due within five business days, and completion feedback must be updated afterward. Public evidence establishes the workflow but not the amount of manual work remaining after existing ERP and Dx NEXT deployments.",
+      "buyer": "Vice-President or Director of Distribution Operations controlling locate-service and compliance budgets; a CAD $40k approval inside 90 days is not yet credible without confirming delegated pilot authority and procurement thresholds.",
+      "champion": "Supervisor or Manager of Locates and Damage Prevention, supported by the Program Analyst or Contract Administrator responsible for provider performance.",
+      "valueUnit": "Late-request percentage; analyst minutes per exception; repeat locates; contractor invoice variance; cost per completed locate; verified penalty or complaint exposure.",
+      "valueHypothesis": "Provisional attributable annual value range: CAD $50k-$250k, to be established—not promised—through a paid evidence sprint. Formula: verified exception volume × measured handling-time reduction × loaded labour rate, plus verified avoided repeats × actual unit cost, plus confirmed invoice corrections and avoided penalties. Observed inputs include Alectra's 185,372 locate notifications and CAD $7.9M gross 2025 program cost. Any exception rate, time saving, leakage rate or causal reduction remains an assumption until historical replay and a controlled live measurement establish the baseline and counterfactual.",
+      "solutionWedge": "Begin with CSV replay rather than integration: normalize Ontario One Call, provider and invoice events; calculate configurable deadlines; rank unresolved requests; expose the blocking event and responsible party; record human interventions; and reconcile completion against invoicing. Do not include mapping, autonomous locating or clearance-to-dig decisions.",
+      "demoConcept": "Show 250 synthetic requests across three providers. Open a request due tomorrow whose field completion exists but whose 360 Feedback update is missing; identify the evidence gap, assign a contract administrator and update the compliance forecast. Finish with provider timeliness, repeat-work and invoice-reconciliation views.",
+      "dataNeeded": [
+        "Ontario One Call request, notification, status and 360 Feedback exports",
+        "Provider dispatch, access, completion, correction and repeat-request events",
+        "Request type, operational area, statutory deadline and renegotiated-date history",
+        "Contract rates, invoice line items and billable-segment definitions",
+        "Human intervention logs and outcome codes",
+        "Warnings, complaints and penalties where available",
+        "Existing ERP or Dx NEXT workflow configuration so the pilot can test a genuine gap"
+      ],
+      "risks": [
+        "Alectra disclosed CAD $9.2M of locates ERP continuous-improvement investment for 2022-2026, materially weakening the internal-engineering-gap thesis.",
+        "Elexicon already uses Dx NEXT and reports sustained 97% compliance; a generic dashboard would duplicate installed capability.",
+        "No named LDC has publicly confirmed that its remaining exceptions, invoice leakage or analyst effort are large enough to justify another system.",
+        "Ontario One Call and provider exports may be contractually or technically constrained.",
+        "Seasonality, request mix and excavator behaviour can confound attribution.",
+        "The product must never declare an area safe to dig or replace an authorized locator.",
+        "Utility asset and damage information requires strict access, hosting and retention controls.",
+        "LDC procurement and security review may make a paid pilot inside 90 days impractical."
+      ],
+      "evidence": [
+        {
+          "claim": "Ontario One Call's 2026 business plan reports a 2023 baseline in which 67% of all locates required for project commencement were delivered on time and sets an 85% target for 2026.",
+          "url": "https://ontarioonecall.ca/wp-content/uploads/2026-Business-Plan-FINAL.pdf",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Ontario One Call states that standard locates are due within five business days and that completed locates must be updated in the 360 Feedback system within three business days.",
+          "url": "https://ontarioonecall.ca/compliance-enforcement/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Alectra's updated February 2026 evidence reports CAD $7.9M of gross 2025 locate-program cost and 185,372 locate notifications. This supersedes the candidate's CAD $8.42M statement for underwriting purposes.",
+          "url": "https://www.rds.oeb.ca/CMWebDrawer/Record/933750/File/document",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Alectra separately disclosed CAD $9.2M of locates ERP continuous-improvement investment over 2022-2026, including regulatory compliance and third-party compatibility objectives.",
+          "url": "https://www.rds.oeb.ca/CMWebDrawer/Record/933752/File/document",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Elexicon reports using Dx NEXT, maintaining a three-person Locates and Damage Prevention team plus a co-op student, and improving compliance to a sustained 97%.",
+          "url": "https://www.rds.oeb.ca/CMWebDrawer/Record/941210/File/document",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "The evidence establishes spend, deadlines and cross-provider work, but does not establish an unmet software gap, accessible customer exports or a 90-day approval path at a named LDC.",
+          "url": "https://www.rds.oeb.ca/CMWebDrawer/Record/933752/File/document",
+          "observedAt": "2026-07-28",
+          "kind": "inference",
+          "sourceType": "primary"
+        }
+      ],
+      "accounts": [
+        {
+          "name": "Alectra Utilities",
+          "domain": "alectrautilities.com",
+          "signal": "Current OEB evidence shows 185,372 notifications and CAD $7.9M gross locate cost in 2025, but also CAD $9.2M of locates ERP investment through 2026.",
+          "signalUrl": "https://www.rds.oeb.ca/CMWebDrawer/Record/933752/File/document",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Route through the operational owner of cable locates and records/mapping. Discovery must identify a remaining ERP gap before proposing a pilot."
+        },
+        {
+          "name": "Elexicon Energy",
+          "domain": "elexiconenergy.com",
+          "signal": "Its May 2026 filing describes a dedicated team, Dx NEXT and sustained 97% compliance.",
+          "signalUrl": "https://www.rds.oeb.ca/CMWebDrawer/Record/941210/File/document",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Approach the Supervisor of Locates and Damage Prevention only with an audit, reconciliation or cross-provider exception hypothesis that Dx NEXT does not already address."
+        },
+        {
+          "name": "Entegrus Powerlines",
+          "domain": "entegrus.com",
+          "signal": "Its 2026 filing reports hiring a Supervisor of Locates and adding a locator after regulated deadlines and administrative penalties took effect.",
+          "signalUrl": "https://www.rds.oeb.ca/CMWebDrawer/Record/923064/File/document",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Validate current exception volume and delegated spending authority with the Supervisor of Locates before approaching the operations executive."
+        },
+        {
+          "name": "Burlington Hydro",
+          "domain": "burlingtonhydro.com",
+          "signal": "Its filing documents outsourced standard locating, internal emergency response and responsibility for program costs.",
+          "signalUrl": "https://www.rds.oeb.ca/CMWebDrawer/Record/895507/File/document",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Route through the manager overseeing third-party locating and test whether contractor reconciliation is both manual and material."
+        }
+      ],
+      "verdict": "research",
+      "whyNow": "Ontario One Call has a current 2026 timeliness target, and 2026 OEB filings expose program costs, staffing and installed systems. Those same filings reveal that several LDCs have already invested in software and oversight, making immediate discovery more important than immediate selling.",
+      "thirtyDayProof": "Secure one paid CSV-based sprint covering at least six representative months. Establish exportability and data quality in week one; replay deadline and provider exceptions in weeks two and three; then measure precision on historical breaches, analyst minutes per handled exception, repeat-work identification and invoice discrepancies. Proceed only if a champion confirms a material gap beyond existing ERP/Dx NEXT and a buyer documents a sub-90-day pilot route.",
+      "score": {
+        "pain": 17,
+        "budget": 15,
+        "data": 9,
+        "timing": 10,
+        "engineeringGap": 2,
+        "access": 4,
+        "repeatability": 5,
+        "total": 62,
+        "rationale": "17+15+9+10+2+4+5=62. Direct evidence supports recurring regulated pain and substantial budgets. Scores fall because customer exports and procurement access are unverified, while current primary evidence affirmatively shows major ERP investment and installed Dx NEXT capability."
+      },
+      "stage": "research",
+      "createdAt": "2026-07-28T22:02:59.822Z",
+      "updatedAt": "2026-07-28T22:02:59.822Z"
+    },
+    {
+      "id": "prairie-grain-railcar-exception-desk",
+      "title": "Prairie grain railcar-order exception desk",
+      "sector": "Grain handling, rail logistics and export terminals",
+      "geography": "Western Canadian grain corridors to Vancouver, Prince Rupert, Thunder Bay, Eastern Canada and US destinations",
+      "summary": "Research hold. Weekly railcar fulfillment and shipper-driven order changes create a genuine exception workflow, and target companies clearly have investment capacity. Public data is too aggregated for customer prediction, recent reports also show rapid recovery, and no account-specific cost, internal-tool gap, data commitment or 90-day buyer path is established.",
+      "peopleImpact": "Rail planners could focus on the most consequential orders and give elevator and terminal teams earlier warning. The software would organize evidence and scenarios but could not create capacity, compel railway service or guarantee fulfillment.",
+      "currentWorkflow": "Grain shippers place and amend hopper-car orders by want week. Railway supply can arrive early, on time or late, while planners advance, defer, cancel or reallocate orders as corridor, commodity, inventory and terminal requirements change. Planning is at least weekly and operational monitoring is effectively daily. Carrier, coalition and federal reports provide overlapping external signals, but the internal tools and manual effort at named shippers are unknown.",
+      "buyer": "Vice-President of Transportation, Supply Chain or Grain Operations; large target accounts can fund CAD $40k, but delegated authority and a procurement path inside 90 days have not been demonstrated.",
+      "champion": "Director or Manager of Rail Logistics, supported by transportation planners and elevator or terminal operations managers.",
+      "valueUnit": "Orders supplied within want week; attributable outstanding car-days; tonnes deferred; inventory-days; planner-hours per exception; verified customer-service or contract cost.",
+      "valueHypothesis": "Provisional attributable annual value range: CAD $75k-$250k, requiring a paid evidence sprint. Formula: measured planner-hours removed × loaded labour rate, plus attributable reduction in outstanding car-days × customer-verified carrying cost, plus documented service, demurrage or contract costs prevented. Public fulfillment rates, capital investments and corridor volumes are not customer savings. Order-level attribution requires the shipper's amendments, inventory, commitments and railway events plus an agreed counterfactual.",
+      "solutionWedge": "Replay customer orders and amendments alongside railway acknowledgements and operational milestones; enrich them with public corridor indicators; rank orders at risk; expose the likely constraint; allow planners to compare defer, advance and reallocate scenarios; and retain a decision log. Do not present public aggregate signals as customer-specific causal predictions.",
+      "demoConcept": "Use 180 synthetic orders across five elevators and three corridors. Flag a Vancouver block with worsening fulfillment and dwell, compare three human-reviewed mitigations, show downstream inventory and commitment exposure, and finish with a retrospective explaining correct and incorrect alerts.",
+      "dataNeeded": [
+        "Customer orders, want weeks, amendments, cancellations and carrier acknowledgements",
+        "Car spotting, release, pull, arrival, unload and empty-release events",
+        "Elevator inventory, commodity, grade and loading capacity",
+        "Terminal requirements, vessel lineup and shipment commitments",
+        "Carrier order-book and weekly grain reports",
+        "Statistics Canada, Grain Monitor and Ag Transport Coalition datasets",
+        "Weather, embargo, interruption and terminal-status events",
+        "Customer carrying cost, service commitments and contribution margin",
+        "Current TMS, ERP and carrier-portal workflows"
+      ],
+      "risks": [
+        "Public data is aggregated and cannot reliably predict a named shipper's order outcome without customer events.",
+        "Week 22 fulfillment recovered to 94%, showing that the observed problem can be episodic rather than persistently severe.",
+        "Shipper deferrals and cancellations can be mistaken for carrier failure.",
+        "Large grain handlers are operationally sophisticated; insufficient internal engineering is not evidenced.",
+        "Existing TMS, ERP and railway tools may already provide tracking and alerts.",
+        "Orders, inventories, grades, customers and contracts are commercially sensitive.",
+        "Weather, labour, vessel and corridor disruptions complicate attribution.",
+        "No named rail-logistics champion or 90-day procurement route is currently evidenced."
+      ],
+      "evidence": [
+        {
+          "claim": "Transport Canada's 2025 annual report, published in 2026, says the 2025-26 crop year began with a record harvest of about 107 million tonnes and sustained pressure on western export corridors late in 2025.",
+          "url": "https://tc.canada.ca/en/corporate-services/transparency/corporate-management-reporting/transportation-canada-annual-reports/transportation-canada-annual-report-2025",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "The Ag Transport Coalition reported combined want-week fulfillment of 88% in week 21, with individual railway and corridor variation.",
+          "url": "https://agtransportcoalition.com/wp-content/uploads/2026/02/AG-Transport-Coalition_202521.pdf",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "practitioner"
+        },
+        {
+          "claim": "The coalition reported recovery to 94% in week 22 and about 1,900 CPKC orders deferred by shippers plus more than 400 advanced, demonstrating both volatility and shipper-driven changes.",
+          "url": "https://agtransportcoalition.com/wp-content/uploads/2026/02/AG-Transport-Coalition_202522.pdf",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "practitioner"
+        },
+        {
+          "claim": "Statistics Canada's weekly table was current in July 2026 and includes orders placed, orders filled and past-due orders, with cautions about differences among carrier methodologies.",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310027501",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "CN's 2025-26 plan provides weekly order and fluidity reporting and customer shipment tracking, increasing available signals but also raising the duplication risk for a basic visibility product.",
+          "url": "https://www.cn.ca/en/news/2025/07/cn-releases-20252026-grain-plan-strengthening-canadas-supply-cha/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Public and carrier feeds can enrich exception review, but customer orders, inventory and commitments are necessary to test prediction quality and attributable value.",
+          "url": "https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2310027501",
+          "observedAt": "2026-07-28",
+          "kind": "inference",
+          "sourceType": "primary"
+        }
+      ],
+      "accounts": [
+        {
+          "name": "G3 Canada",
+          "domain": "g3.ca",
+          "signal": "G3 is building a 65,000-tonne Trois-Rivières terminal for completion before the 2027 growing season and publicly names Philippe Belanger as Director of Eastern Canada Operations.",
+          "signalUrl": "https://www.g3.ca/en/news/g3-announces-new-port-facility-in-Trois-Rivi%C3%A8res",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Use the named operations route to test eastern-terminal coordination, but obtain a referral to the rail-logistics budget owner before proposing a pilot."
+        },
+        {
+          "name": "Richardson International",
+          "domain": "richardson.ca",
+          "signal": "Richardson reports ongoing rail-loop investment across more than 90 Western Canadian locations; its sustainability report cites CAD $18.5M of rail-yard investment and CAD $8.8M of terminal automation.",
+          "signalUrl": "https://www.richardson.ca/richardson-pioneer-capital-investments-set-the-pace-for-grower-success/",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Route through rail-logistics or Vancouver terminal operations. Capital capacity is clear, but internal analytics capability and pilot authority require discovery."
+        },
+        {
+          "name": "Bunge Canada",
+          "domain": "viterra.ca",
+          "signal": "Bunge completed its October 2025 acquisition of a 63,000-tonne Saskatchewan elevator served by CN and CPKC and stated that it plans operational investments.",
+          "signalUrl": "https://www.viterra.ca/en/Media-and-Insights/News-Releases/bunge-closes-agreement-to-acquire-nwt-unity",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Seek the rail-capacity planning or Canadian grain-operations manager rather than the country head; validate whether integration work creates an active decision window."
+        }
+      ],
+      "verdict": "research",
+      "whyNow": "A record 2025-26 harvest, current weekly federal data, fluctuating fulfillment and active terminal or elevator investments create a timely discovery window. The 2027 G3 terminal is a concrete operational signal, but it does not prove demand for this particular software wedge.",
+      "thirtyDayProof": "Obtain a paid replay covering at least one crop quarter from one shipper. Reconstruct the order book and amendments, compare ranked risks with missed want weeks, separate railway shortfall from shipper action, and measure alert precision, lead time, planner handling time and attributable car-days. Proceed only if the buyer confirms a gap beyond existing TMS and carrier tools and identifies a CAD $40k approval route inside 90 days.",
+      "score": {
+        "pain": 12,
+        "budget": 17,
+        "data": 10,
+        "timing": 10,
+        "engineeringGap": 4,
+        "access": 4,
+        "repeatability": 4,
+        "total": 61,
+        "rationale": "12+17+10+10+4+4+4=61. Direct sources support operational volatility, current signals and well-funded accounts. The score is constrained by absent customer-level economics, uncommitted proprietary data, sophisticated incumbents and internal teams, episodic performance, and no reachable approving buyer."
+      },
+      "stage": "research",
+      "createdAt": "2026-07-28T22:02:59.822Z",
+      "updatedAt": "2026-07-28T22:02:59.822Z"
+    },
+    {
+      "id": "ontario-hvacr-diagnostic-quote-continuity",
+      "title": "Commercial HVAC/R diagnostic-to-quote continuity desk",
+      "sector": "Independent commercial HVAC, refrigeration and industrial refrigeration service contractors",
+      "geography": "Greater Toronto Area and Southern Ontario",
+      "summary": "Human-approved workspace that assembles service history, equipment evidence, manuals and diagnostic notes into an editable, cited draft recommendation and quote outline. It must not make autonomous licensed, safety, pricing, or regulatory decisions.",
+      "peopleImpact": "Could reduce repeated history reconstruction by senior technicians and service leaders and create reviewable training cases; technical diagnosis, customer commitments and regulated work remain human-approved.",
+      "currentWorkflow": "Verified at FRIES: technicians use tablets connected to an internal operating system; completed work orders go to the site manager for review and approval, including labour, truck and parts charges. The diagnostic-to-quote handoff and exception-resolution sequence is a reasonable but unverified inference for the target accounts.",
+      "buyer": "Owner/President or Operations Manager/Service Director. Publicly named routes include Springbank co-owners Paul DeThomasis and Hugo Lopes, Enns President Ryan Ritter, and FRIES Owner/President Tony Francis.",
+      "champion": "Service manager, lead technician, dispatcher or estimator responsible for preparing or resolving service and quote exceptions.",
+      "valueUnit": "Minutes of senior review per quote-ready work order; diagnosis-to-approved-quote elapsed time; revisit/callback rate; and labour, truck and parts charge completeness.",
+      "valueHypothesis": "No savings amount is evidenced. Conservative value is CAD 0 until attribution is measured. Evidence-sprint formula: (baseline senior-preparation hours minus pilot hours) × loaded hourly cost + (baseline avoidable revisits minus pilot revisits) × verified contribution cost + incremental verified charge capture. Baseline, matched-call counterfactual, definitions and attribution must be agreed before any share-of-savings proposal; CAD 200k is upside only and unsupported here.",
+      "solutionWedge": "Shadow-mode evidence and exception layer above the existing field-service system: ingest selected work orders, asset records, manuals and photos; draft a cited checklist, missing-evidence prompts and editable quote/recommendation outline; require named human approval. Do not replace dispatch, order parts, set prices or authorize repairs.",
+      "demoConcept": "Synthetic repeat walk-in-freezer alarm: link asset history, three service notes, readings, photos and a manual excerpt; flag missing readings and repeat-failure history; show editable repair and escalation options; record service-manager approval; export a quote-ready summary.",
+      "dataNeeded": [
+        "Completed/open work orders with labour, truck, parts, status and revisit flags",
+        "Asset register and preventive-maintenance history",
+        "Technician notes, readings, photos and consented voice notes",
+        "Parts catalogue, supplier lead-time exports and price-book rules",
+        "OEM manuals, approved diagnostic checklists and service bulletins",
+        "Quotes, approvals and customer outcomes"
+      ],
+      "risks": [
+        "Neither source review nor account signals prove data access, budget or a 90-day close path.",
+        "The target firms may already have sufficient field-service software or internal process capability; integration and differentiation require discovery.",
+        "Historical records may be incomplete, inconsistent or unavailable for use.",
+        "Outputs must not be presented as licensed diagnosis, safety authorization, regulatory determination or final price.",
+        "Customer, technician, price-book and site data require tenant isolation, permissions, retention controls and synthetic demonstration data.",
+        "The labour-market evidence is aggregate only and must not be used to infer an individual’s retirement intentions."
+      ],
+      "evidence": [
+        {
+          "claim": "FRIES states it provides commercial kitchen-equipment, HVAC and commercial-refrigeration service in the GTA, employs TSSA-certified technicians, and offers 24/7 support.",
+          "url": "https://friesinc.com/our-company.php",
+          "observedAt": "2026-07-29",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "FRIES states that technicians use tablets linked to an internal operating system and that site managers review and approve work orders, including labour, truck and parts charges, at completion.",
+          "url": "https://friesinc.com/our-company.php",
+          "observedAt": "2026-07-29",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Job Bank’s 2025–2027 outlook, updated December 10, 2025, reports a moderate number of retirement-related openings and a small pool of recently experienced unemployed HVAC/R mechanics in Hamilton–Niagara; it also reports the same retirement/supply pattern for Toronto.",
+          "url": "https://www.jobbank.gc.ca/outlookreport/occupation/7509",
+          "observedAt": "2026-07-29",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "A human-approved evidence and exception layer could be evaluated without replacing the incumbent work-order system, but whether a target account will share data or pay for it is unverified.",
+          "url": "https://friesinc.com/our-company.php",
+          "observedAt": "2026-07-29",
+          "kind": "inference",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Springbank’s January 25, 2026 publication identifies commercial HVAC equipment replacement, downtime, emergency-service costs and maintenance costs as current market concerns; this is a timely but supplier-authored market signal, not account-specific proof of quote-workflow pain.",
+          "url": "https://www.springbank.com/commercial-hvac-trends-to-expect-in-2026/",
+          "observedAt": "2026-07-29",
+          "kind": "observed",
+          "sourceType": "primary"
+        }
+      ],
+      "accounts": [
+        {
+          "name": "Springbank Mechanical Systems",
+          "domain": "springbank.com",
+          "signal": "A January 25, 2026 commercial-HVAC publication is current, and the page names co-owners Gregg Little, Paul DeThomasis and Hugo Lopes with contact routes. This supports reachability, not a committed project or budget.",
+          "signalUrl": "https://www.springbank.com/commercial-hvac-trends-to-expect-in-2026/",
+          "observedAt": "2026-07-29",
+          "buyerRoute": "Economic-buyer route: Paul DeThomasis or Hugo Lopes, co-owner. Operational route: Hugo Lopes or service management; validate current responsibility in discovery."
+        },
+        {
+          "name": "Enns Industrial Refrigeration Ltd.",
+          "domain": "gaenns.com",
+          "signal": "The current careers page lists full-time refrigeration technician and apprentice roles in Southwestern Ontario and the GTA. The company’s about page names Ryan Ritter as President and Brendan Duncan as General Manager/Lead Technician.",
+          "signalUrl": "https://www.gaenns.com/join-our-team",
+          "observedAt": "2026-07-29",
+          "buyerRoute": "Economic-buyer route: Ryan Ritter, President. Operational-champion route: Brendan Duncan, General Manager/Lead Technician; validate software ownership and data availability."
+        },
+        {
+          "name": "F.R.I.E.S. (Foodservice Repair & Installation Equipment Services)",
+          "domain": "friesinc.com",
+          "signal": "FRIES publicly describes its tablet-integrated work-order process and names Tony Francis as Owner and President. This is strong workflow evidence but also indicates an incumbent internal system.",
+          "signalUrl": "https://friesinc.com/our-company.php",
+          "observedAt": "2026-07-29",
+          "buyerRoute": "Economic-buyer route: Tony Francis, Owner and President. Operational-champion route: service-department manager; validate integration feasibility and a decision-system gap."
+        }
+      ],
+      "knowledgeTransfer": {
+        "relevance": "core",
+        "workforceSignal": "Federal Job Bank reports retirement-related openings and limited recent experienced-worker supply for HVAC/R mechanics in relevant Ontario regions. This supports a sector-level continuity hypothesis only, not any individual transition claim.",
+        "sourceUrl": "https://www.jobbank.gc.ca/outlookreport/occupation/7509",
+        "capturePlan": "Offer a paid 30-day evidence sprint: map 20–30 diagnostic-to-quote decisions; obtain consented samples of work orders, notes, photos, quotes and outcomes; build an exception library; establish baseline review time, quote cycle time, callbacks and charge capture. Proceed to 60-day shadow mode only if data quality, human-review participation and a measurable baseline are demonstrated.",
+        "safeguards": "Use consented operational data; tenant-isolate records; cite source work orders, manuals and photos; retain human licensed approval for technical and safety-relevant outputs; do not infer individual demographics or retirement plans."
+      },
+      "verdict": "research",
+      "whyNow": "Current Ontario technician recruitment and the current 2025–2027 federal outlook support capacity and continuity research. They do not by themselves create an account-specific purchase event.",
+      "thirtyDayProof": "Secure one design partner for a paid evidence sprint and evaluate 30–50 historical and live service cases. Prove: usable record coverage; percentage of drafts with source citations; human edit/approval rate; baseline versus shadow-mode preparation time; and an agreed measurement method for revisits and charge completeness.",
+      "score": {
+        "pain": 13,
+        "budget": 7,
+        "data": 9,
+        "timing": 11,
+        "engineeringGap": 7,
+        "access": 8,
+        "repeatability": 5,
+        "total": 60,
+        "rationale": "The workflow and operational consequences are credible, but no observed account-specific financial loss or volume is available. Named owners and current signals create a reachable research route, while public evidence does not prove a CAD $40k+ budget, data permission, internal engineering shortfall, or 90-day approval path. The wedge appears repeatable across similar contractors if discovery establishes a distinct gap above existing field-service systems."
+      },
+      "stage": "research",
+      "createdAt": "2026-07-29T00:41:42.975Z",
+      "updatedAt": "2026-07-29T00:41:42.975Z"
+    },
+    {
+      "id": "equipment-service-wip-warranty-preflight",
+      "title": "Heavy-equipment service work-order closeout and warranty-recovery preflight",
+      "sector": "Equipment service and field service",
+      "geography": "Ontario and Alberta equipment-dealer branches",
+      "summary": "Current postings from three dealer groups directly expose work-order, WIP, hours, warranty, recovery-rate, KPI and invoicing responsibilities. That supports a recurring workflow but not a demonstrated error or leakage problem. Existing dealer-management products already support work orders, technician time, warranty claims and dashboards, and SMS publicly employs an Executive Vice President of Technology and Innovation. The opportunity needs account-specific evidence before it is commercially investable.",
+      "peopleImpact": "A successful exception queue could reduce late requests for technicians to reconstruct records and give service advisors a prioritized closeout list. Managers and qualified warranty staff must retain responsibility for repair safety, warranty eligibility, customer liability and claim submission.",
+      "currentWorkflow": "Technicians record labour, parts and service notes for each job. Advisors or coordinators post hours, maintain work orders, obtain approvals and classify customer-pay or warranty work. Service managers continuously review WIP, data accuracy, recovery, KPIs and final invoicing, while warranty and parts staff resolve missing evidence and credits. Public sources show the responsibilities but not work-order volume, administrative minutes, aging balances, reject rates or manual share.",
+      "buyer": "Shaun Bilodeau, Senior Vice President, Parts and Service at SMS Equipment, is the clearest named buyer. At Premier Equipment, the buyer role is the executive responsible for service or aftermarket operations and remains unnamed in the supplied evidence. At Johnston Equipment, corporate operations approval would be required above the regional service manager.",
+      "champion": "The Timmins or Kingston Service Manager, Greg Rego as the publicly identified Johnston reporting manager, or a branch warranty/service-administration manager. The champion must provide an extract and identify failure modes that the existing DMS does not already prevent.",
+      "valueUnit": "Administrative minutes per closed work order; dollars and days of aging WIP; technician-completion-to-invoice days; valid warranty dollars recovered; rejected or resubmitted claims; labour-recovery rate; and unresolved parts-credit value.",
+      "valueHypothesis": "Conservative public-evidence value range is CAD $0 because no account-specific WIP balance, closeout labour, rejection rate or warranty leakage is published. Sprint formula: attributable value = verified administrative hours removed × loaded rate + financing benefit from invoice days reduced + additional valid warranty recovery + recovered parts credits − false-positive effort − implementation cost. Current postings and company scale are observed; transaction counts, error rates, cash-conversion value and incremental recovery are assumptions. No share-of-savings price should be proposed until a paid sprint establishes causality and a control group.",
+      "solutionWedge": "A branch-bounded, human-reviewed exception queue built from read-only DMS exports. Start with evidence-completeness and aging checks rather than warranty eligibility: missing serial number, labour without notes, stale approval, unposted hours, unresolved credit and approaching submission deadline.",
+      "demoConcept": "Load 50 synthetic work orders and show eight prioritized exceptions with links to notes, labour, parts, authorization and policy records. A service manager resolves or dismisses each finding and exports a closeout packet without changing the DMS or submitting a warranty claim.",
+      "dataNeeded": [
+        "Read-only work-order headers, status history, WIP values and invoice dates",
+        "Technician time entries, service reports, fault codes and inspection evidence",
+        "Parts issues, returns, core credits and purchase records",
+        "Quotes, approvals, service agreements and invoice history",
+        "Authorized OEM warranty policies, deadlines, outcomes and rejection reasons",
+        "An incumbent DMS feature map and audit of export/API rights"
+      ],
+      "risks": [
+        "The postings describe managerial accountability, not observed leakage or predominantly manual work.",
+        "Modern heavy-equipment DMS products already advertise integrated time capture, work orders, warranty submission and real-time KPIs.",
+        "SMS currently names an Executive Vice President of Technology and Innovation, materially weakening the insufficient-engineering thesis for the strongest account.",
+        "OEM policies and interfaces are proprietary and brand-specific.",
+        "Legacy integration and inconsistent technician notes could consume the evidence sprint.",
+        "The tool cannot decide repair safety, warranty eligibility or customer liability.",
+        "Branch managers may own operating budgets but lack authority for CAD $40k software or corporate data access."
+      ],
+      "evidence": [
+        {
+          "claim": "SMS Equipment's current Timmins vacancy pays CAD $125,000–$130,000 and assigns the manager work-order and WIP accuracy, annual budgets, warranty administration, cost recovery, service data and financial results.",
+          "url": "https://ca.indeed.com/viewjob?jk=3d70885e758f7bd8",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "practitioner"
+        },
+        {
+          "claim": "SMS currently names Shaun Bilodeau as Senior Vice President, Parts and Service and Mike Brown as Executive Vice President, Technology and Innovation.",
+          "url": "https://www.smsequipment.com/en-us/about-us/executive-leadership-team/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Premier Equipment's June 29, 2026 Kingston posting says the group has 20 locations and more than 190 technicians and assigns the Service Manager end-to-end workflow, final invoicing, recovery rate and financial results.",
+          "url": "https://careers-premierequipment.icims.com/jobs/1450/service-manager/job?in_iframe=1",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Premier's company page independently reports 20 locations and more than 600 employees.",
+          "url": "https://www.premierequipment.ca/about",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Johnston Equipment's June 15, 2026 Edmonton posting reports to Greg Rego and assigns work orders, posted hours, operational reports, KPIs and budget preparation to the Service Manager.",
+          "url": "https://johnstonequipment.talcura.com/Jobs/PrintJob.aspx?JobId=8648",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Commercial heavy-equipment DMS products already offer technician clocking, work-order pipelines, warranty submission and real-time service KPIs, so the proposed residual gap cannot be assumed from job postings.",
+          "url": "https://www.flyntlok.com/solutions/heavy-equipment-dealer-software",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "The current evidence proves recurring control responsibilities and available operational records, but not an account-specific exception rate, value pool or 90-day approval route.",
+          "url": "https://ca.indeed.com/viewjob?jk=3d70885e758f7bd8",
+          "observedAt": "2026-07-28",
+          "kind": "inference",
+          "sourceType": "practitioner"
+        }
+      ],
+      "accounts": [
+        {
+          "name": "SMS Equipment",
+          "domain": "smsequipment.com",
+          "signal": "A current Timmins vacancy assigns a CAD $125,000–$130,000 Service Manager work-order, WIP, warranty-recovery, budget and service-data responsibility.",
+          "signalUrl": "https://ca.indeed.com/viewjob?jk=3d70885e758f7bd8",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Shaun Bilodeau is the named service executive, but Mike Brown's technology remit means the pilot must be framed as a residual DMS exception test and pass internal architecture review. Recruit the Timmins manager only after the vacancy is filled."
+        },
+        {
+          "name": "Premier Equipment",
+          "domain": "premierequipment.ca",
+          "signal": "The June 29, 2026 Kingston Service Manager posting assigns recovery rate, bottleneck reduction, workflow and final-invoice ownership in a 20-location dealer group.",
+          "signalUrl": "https://careers-premierequipment.icims.com/jobs/1450/service-manager/job?in_iframe=1",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Use the Kingston manager as discovery champion, then identify the corporate service/aftermarket executive and DMS owner. The public evidence does not name an economic buyer."
+        },
+        {
+          "name": "G.N. Johnston Equipment",
+          "domain": "johnstonequipment.com",
+          "signal": "A June 15, 2026 Edmonton posting exposes field-technician work orders, posted hours, operational reporting, KPIs and budgets and publicly names Greg Rego as the reporting manager.",
+          "signalUrl": "https://johnstonequipment.talcura.com/Jobs/PrintJob.aspx?JobId=8648",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Greg Rego is a findable champion route, not proven CAD $40k authority. Escalate through the Canadian operations executive and confirm who controls service-system exports and warranty data."
+        }
+      ],
+      "verdict": "research",
+      "whyNow": "Three current vacancies expose the same operational controls, and Premier describes continued expansion. This creates a timely discovery window around new service leadership, but vacancies can also delay sponsorship and do not themselves prove deficient systems.",
+      "thirtyDayProof": "Use one branch and 500–1,000 historical work orders if available. Establish aging WIP, closeout minutes, invoice-cycle time, claim rejection reasons and valid recovery. Compare the exception queue against the DMS's native reports and a matched control set. Proceed only if the tool finds material, reviewer-confirmed residual exceptions and the annualized conservative value supports CAD $40k.",
+      "score": {
+        "pain": 10,
+        "budget": 11,
+        "data": 9,
+        "timing": 11,
+        "engineeringGap": 3,
+        "access": 6,
+        "repeatability": 5,
+        "total": 55,
+        "rationale": "10+11+9+11+3+6+5=55. The workflow, responsible roles and multi-branch scale are directly evidenced. Actual operational loss, export access and CAD $40k authority are not. Current vacancies supply timing but may weaken immediate sponsorship. Existing DMS functionality and SMS's technology executive materially reduce the engineering-gap score. The workflow is highly repeatable if a residual problem is found."
+      },
+      "stage": "research",
+      "createdAt": "2026-07-28T22:15:56.612Z",
+      "updatedAt": "2026-07-28T22:15:56.612Z"
+    },
+    {
+      "id": "restoration-claim-file-preflight",
+      "title": "Property-restoration estimate and carrier-file preflight",
+      "sector": "Construction claims and insurance-restoration operations",
+      "geography": "Canada, initially Ontario and Alberta franchise networks",
+      "summary": "A recognizable per-claim review workflow exists, and PuroClean publicly assigns national leaders to operations, compliance and process modernization. However, PuroClean has already selected an enterprise restoration suite containing DASH and QA Assist, while XactXpert and XactAnalysis QR provide configurable estimating and quality-review functions. The residual problem, error rate and willingness to add another review layer remain unproved.",
+      "peopleImpact": "If a residual gap is established, estimators and project managers could receive faster, source-linked correction requests, while reviewers could concentrate on material exceptions. Human reviewers must retain control because incorrect scope or documentation findings could delay urgent restoration and affect claim presentation.",
+      "currentWorkflow": "For each claim file, project managers or estimators assemble scope, estimate, photographs, sketches, moisture and equipment logs, invoices and carrier documentation. A senior estimator, compliance lead or operations reviewer checks the package and returns deficiencies for correction. The workflow is observed through current role descriptions, but public sources do not disclose claim volume, review minutes, rejection frequency or attributable loss.",
+      "buyer": "Most credible economic buyer is Jenny Noble, Vice President of Operations at PuroClean Canada, with CFO participation for a CAD $40k pilot. JP Giroux, Vice President of Corporate Strategy and Growth, and Stephen Robinson, Vice President of Strategic Innovation and Growth, are potential innovation routes. DKI's comparable buyer is Bryan Pereira, Vice President of Operations.",
+      "champion": "Doug Mandar, Director of Compliance and Performance, an incoming Director of Field Support, or a network estimating-quality lead. A champion must first identify exceptions that DASH, QA Assist, XactXpert or existing carrier review processes do not already handle.",
+      "valueUnit": "Reviewer minutes per file; first-pass acceptance; supplement or resubmission count; approval-cycle days; verified estimate corrections; and gross-margin variance attributable to preflight findings.",
+      "valueHypothesis": "Conservative public-evidence value range is CAD $0 because no account-specific file volume, labour baseline, rejection rate or margin leakage is published. Sprint formula: attributable value = files reviewed × verified reviewer minutes saved ÷ 60 × loaded reviewer rate + verified margin corrections + financing value of approval days reduced − false-positive rework − incremental operating cost. Observed inputs are network scale, assigned review responsibilities and available document categories; all volumes, rates and savings are assumptions until measured. A CAD $200k share-of-savings case is excluded unless a paid evidence sprint establishes baseline, counterfactual and attribution.",
+      "solutionWedge": "A reviewer-controlled exception layer over approved exports that cites the estimate, photograph, log or invoice supporting each flag. Limit the initial wedge to a small set of residual documentation and consistency checks confirmed as absent from incumbent tools; do not submit, settle or modify claims.",
+      "demoConcept": "In two minutes, load a synthetic water-loss package and show five cited exceptions: unsupported equipment duration, missing required photograph, room-scope mismatch, omitted disposal activity and a deadline risk. The reviewer opens the source evidence, accepts or dismisses each finding and exports a preflight report.",
+      "dataNeeded": [
+        "De-identified estimate exports and revision history from the actual account",
+        "Photographs, sketches, moisture records, equipment logs, quotes and invoices",
+        "Authorized carrier or network rules that incumbent tools do not already enforce",
+        "Reviewer comments, rejection reasons, supplements and approval outcomes",
+        "Job-cost data and approved loaded labour rates for attribution",
+        "A documented inventory of DASH, QA Assist, XactXpert, XactAnalysis QR and other incumbent capabilities"
+      ],
+      "risks": [
+        "The residual software gap is not established; PuroClean selected DASH and QA Assist as part of its enterprise suite.",
+        "Verisk markets XactXpert and XactAnalysis QR for configurable estimate rules, documentation review, reviewer routing and original-versus-corrected comparisons.",
+        "PuroClean publicly names leaders with software and process-modernization experience, weakening the lack-of-internal-engineering score.",
+        "Carrier rules and estimating databases may be licensed or confidential.",
+        "Claim files contain sensitive personal, property and insurer information.",
+        "Franchise autonomy may prevent national data access or consistent rollout.",
+        "No public evidence shows that a reachable buyer can approve CAD $40k inside 90 days."
+      ],
+      "evidence": [
+        {
+          "claim": "PuroClean Canada currently identifies more than 60 Canadian locations and names Jenny Noble as Vice President of Operations, Doug Mandar as Director of Compliance and Performance, Stephen Robinson as Vice President of Strategic Innovation and Growth, and JP Giroux as Vice President of Corporate Strategy and Growth.",
+          "url": "https://puroclean.ca/about-us",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "A current PuroClean Director of Field Support search result assigns estimate, scoping and file-documentation oversight and internal estimate reviews to the role.",
+          "url": "https://ca.indeed.com/q-puroclean-property-restorations-jobs.html",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "practitioner"
+        },
+        {
+          "claim": "DKI currently names Bryan Pereira as Vice President of Operations.",
+          "url": "https://dki.ca/team/bryan-pereira/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "WINMAR's October 2025 announcement says Caitlin Zaleschuk's prior leadership work included estimate review, quality assurance and operational excellence.",
+          "url": "https://www.winmar.ca/caitlin-zaleschuk-joins-the-winmar-canada-international-ltd-national-corporate-team/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "PuroClean selected the Next Gear enterprise suite, including DASH and QA Assist, for more than 350 franchise locations, explicitly citing consistency, data integrity and scalable job management.",
+          "url": "https://www.nextgearsolutions.com/blog/press-releases/puroclean-returns-to-next-gear-solutions-as-its-restoration-technology-provider/",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "Verisk's XactXpert materials describe configurable real-time estimating rules, alerts and reporting; XactAnalysis QR separately supports routed quality review, access to images and sketches, and comparison of original and corrected estimates.",
+          "url": "https://integration.verisk.com/49d7e8/siteassets/media/downloads/property-estimating/xactxpert-accuracy-and-time-saving-advantages.pdf",
+          "observedAt": "2026-07-28",
+          "kind": "observed",
+          "sourceType": "primary"
+        },
+        {
+          "claim": "The current sources prove recurring quality-control responsibility but do not prove a residual gap, account-specific loss or 90-day purchasing path after incumbent capabilities are considered.",
+          "url": "https://puroclean.ca/about-us",
+          "observedAt": "2026-07-28",
+          "kind": "inference",
+          "sourceType": "primary"
+        }
+      ],
+      "accounts": [
+        {
+          "name": "PuroClean Canada",
+          "domain": "puroclean.ca",
+          "signal": "The network has more than 60 locations and current national roles covering operations, compliance, technology and process modernization; a Director of Field Support search result describes internal estimate review.",
+          "signalUrl": "https://puroclean.ca/about-us",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Start with Jenny Noble and Doug Mandar, with JP Giroux or Stephen Robinson as the modernization route. Do not propose a pilot until they identify checks not already covered by DASH, QA Assist, XactXpert or carrier systems and confirm authority over de-identified exports."
+        },
+        {
+          "name": "DKI Canada",
+          "domain": "dki.ca",
+          "signal": "DKI publicly names Bryan Pereira as Vice President of Operations and describes a national restoration network with operational support responsibilities.",
+          "signalUrl": "https://dki.ca/team/bryan-pereira/",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Bryan Pereira is directly findable as the operational buyer role. Recruit an estimating-quality lead from at least two member locations and verify whether corporate or members own software and data budgets."
+        },
+        {
+          "name": "WINMAR Canada",
+          "domain": "winmar.ca",
+          "signal": "WINMAR added a national-team leader whose prior responsibilities included estimate review and quality assurance.",
+          "signalUrl": "https://www.winmar.ca/caitlin-zaleschuk-joins-the-winmar-canada-international-ltd-national-corporate-team/",
+          "observedAt": "2026-07-28",
+          "buyerRoute": "Use Caitlin Zaleschuk only as a discovery route because her current title is Regional Manager–Business Development Pacific, not a confirmed national estimate-quality budget owner. Identify the national operations or insurance-program executive before pricing."
+        }
+      ],
+      "verdict": "research",
+      "whyNow": "PuroClean is growing its Canadian network and recruiting field-support capacity, while its current leadership explicitly includes operations, compliance and software-modernization roles. That creates a discovery window, but also signals strong incumbent capability and internal sophistication.",
+      "thirtyDayProof": "Obtain 100–200 de-identified historical files from one willing network and an incumbent-capability map. Measure baseline review minutes, supplements, rejection reasons and approval time. Run a blinded retrospective comparison, then prospectively assist a small control-matched queue. Proceed only if reviewers confirm a distinct residual exception class, precision is acceptable, and annualized attributable value supports a CAD $40k pilot.",
+      "score": {
+        "pain": 11,
+        "budget": 10,
+        "data": 9,
+        "timing": 12,
+        "engineeringGap": 2,
+        "access": 6,
+        "repeatability": 4,
+        "total": 54,
+        "rationale": "11+10+9+12+2+6+4=54. Active review responsibilities and a current role create credible workflow and timing evidence. Network scale makes funding plausible but not evidenced. Data categories exist, yet access is unconfirmed. The decisive deduction is incumbent overlap: PuroClean already has enterprise restoration and QA tooling, and Verisk offers the proposed rule and review functions. Named leaders are findable, but no relationship, pilot authority or sub-90-day buying path is demonstrated."
+      },
+      "stage": "research",
+      "createdAt": "2026-07-28T22:15:56.612Z",
+      "updatedAt": "2026-07-28T22:15:56.612Z"
+    },
+    {
+      "id": "construction-delay-evidence",
+      "title": "Construction delay evidence",
+      "sector": "Construction & infrastructure",
+      "geography": "Canada",
+      "stage": "seed",
+      "summary": "Reconstruct when a project slipped, which events contributed, and which source records support the chronology.",
+      "peopleImpact": "Reduce weeks of document hunting for project-controls and claims teams while making expert review more focused and auditable.",
+      "currentWorkflow": "Teams compare schedule versions, RFIs, change orders, meeting minutes and site instructions across disconnected folders and spreadsheets.",
+      "buyer": "Director of Project Controls or Claims Director",
+      "champion": "Project Controls Manager or Scheduler",
+      "valueUnit": "Specialist hours spent reconstructing chronology, plus delay and dispute exposure",
+      "valueHypothesis": "Needs current Canadian account evidence and a baseline audit before any savings claim.",
+      "solutionWedge": "Evidence-linked schedule variance timeline with contradiction and missing-record flags.",
+      "demoConcept": "A fictional Canadian infrastructure project where every delay finding opens the supporting schedule or document excerpt.",
+      "dataNeeded": [
+        "baseline and revised schedules",
+        "RFIs and change orders",
+        "meeting minutes and site instructions"
+      ],
+      "risks": [
+        "contractual conclusions require professional review",
+        "missing contemporary records constrain confidence"
+      ],
+      "evidence": [],
+      "accounts": [],
+      "score": {
+        "pain": 0,
+        "budget": 0,
+        "data": 0,
+        "timing": 0,
+        "engineeringGap": 0,
+        "access": 0,
+        "repeatability": 0,
+        "total": 0,
+        "rationale": "Portfolio seed only; awaiting live research."
+      },
+      "createdAt": "2026-07-28T21:45:00.000Z",
+      "updatedAt": "2026-07-28T21:45:00.000Z"
+    },
+    {
+      "id": "toronto-right-of-way-cost",
+      "title": "Toronto right-of-way cost",
+      "sector": "Development & construction logistics",
+      "geography": "Toronto, Ontario",
+      "stage": "seed",
+      "summary": "Show what each metre and additional week of street occupation costs before staging decisions are locked.",
+      "peopleImpact": "Give preconstruction and logistics teams a faster way to compare feasible plans and avoid preventable public-realm disruption.",
+      "currentWorkflow": "Teams interpret staging drawings, schedules, permit assumptions and fee rules in separate files, then recalculate scenarios manually.",
+      "buyer": "Director of Preconstruction or VP Construction",
+      "champion": "Construction Logistics Manager or Permit Coordinator",
+      "valueUnit": "Occupation area multiplied by duration and applicable fee category",
+      "valueHypothesis": "Calculated fees can be modeled; savings remain hypothetical until feasibility and approval are confirmed.",
+      "solutionWedge": "Map-based baseline versus alternative occupation scenario with transparent fee assumptions.",
+      "demoConcept": "A fictional Toronto development where the user changes closure width and phase duration and sees calculated fees update.",
+      "dataNeeded": [
+        "staging and traffic-control drawings",
+        "construction schedule",
+        "current fee schedule and permit assumptions"
+      ],
+      "risks": [
+        "lower-cost scenarios may be operationally infeasible",
+        "rates and permit rules must be verified for each application"
+      ],
+      "evidence": [],
+      "accounts": [],
+      "score": {
+        "pain": 0,
+        "budget": 0,
+        "data": 0,
+        "timing": 0,
+        "engineeringGap": 0,
+        "access": 0,
+        "repeatability": 0,
+        "total": 0,
+        "rationale": "Portfolio seed only; awaiting live research."
+      },
+      "createdAt": "2026-07-28T21:45:00.000Z",
+      "updatedAt": "2026-07-28T21:45:00.000Z"
+    },
+    {
+      "id": "canadian-outage-response",
+      "title": "Canadian outage response",
+      "sector": "Field service & critical facilities",
+      "geography": "Canada",
+      "stage": "seed",
+      "summary": "Turn fragmented outage feeds and customer criticality into an operator-reviewed response queue.",
+      "peopleImpact": "Help dispatchers focus on the locations where a delayed response has the greatest consequence.",
+      "currentWorkflow": "Operators watch utility sites, cross-reference customer spreadsheets, call sites and prioritize jobs through phone, email and dispatcher judgment.",
+      "buyer": "VP Operations or Director of Service",
+      "champion": "Dispatch Manager or Reliability Engineer",
+      "valueUnit": "Response minutes, unnecessary dispatches, site downtime and avoided service loss",
+      "valueHypothesis": "Historical replay must establish whether earlier prioritization changes a measurable operational decision.",
+      "solutionWedge": "Synthetic live-event map and priority queue with source freshness, confidence and human dispatch approval.",
+      "demoConcept": "Replay a fictional winter outage against critical Canadian customer sites and show why the queue order changes.",
+      "dataNeeded": [
+        "customer locations and criticality",
+        "outage events and restoration estimates",
+        "dispatch rules and historical work orders"
+      ],
+      "risks": [
+        "utility feeds may be delayed or spatially imprecise",
+        "recommendations do not prove a site is without service"
+      ],
+      "evidence": [],
+      "accounts": [],
+      "score": {
+        "pain": 0,
+        "budget": 0,
+        "data": 0,
+        "timing": 0,
+        "engineeringGap": 0,
+        "access": 0,
+        "repeatability": 0,
+        "total": 0,
+        "rationale": "Portfolio seed only; awaiting live research."
+      },
+      "createdAt": "2026-07-28T21:45:00.000Z",
+      "updatedAt": "2026-07-28T21:45:00.000Z"
+    }
+  ]
+}

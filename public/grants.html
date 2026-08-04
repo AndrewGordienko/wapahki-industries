@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Grant Radar</title>
+  <link rel="icon" href="/favicon.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/grants.css" />
+</head>
+<body>
+  <header class="gr-top">
+    <div class="gr-brand">
+      <div class="gr-mark">$</div>
+      <div>
+        <h1 id="pageTitle">Grant Radar</h1>
+        <p id="pageSubtitle">Current program → honest eligibility → next action → the person to ask.</p>
+      </div>
+    </div>
+    <div class="gr-actions">
+      <a id="workspaceBack" class="btn btn-ghost" href="/">← Back to workspace</a>
+      <a id="otherGrantPage" class="btn btn-ghost" href="/outagehub/grants">OutageHub grants</a>
+      <a id="exportGrants" class="btn btn-ghost" href="/api/grants/export">Export CSV</a>
+      <label class="gr-count">new leads
+        <input id="researchCount" type="number" min="1" max="60" value="16" />
+      </label>
+      <button id="refreshBtn" class="btn btn-ghost" title="Re-check current rules and deadlines on existing opportunities">↻ Re-verify</button>
+      <button id="researchBtn" class="btn btn-primary">⌕ Sweep funding</button>
+    </div>
+  </header>
+
+  <section id="statbar" class="gr-statbar"></section>
+
+  <section class="gr-guardrail">
+    <b>Research, not submission.</b> No email or application is sent automatically. Incorporation, ownership,
+    revenue, headcount, matching funds, IP and founder-status requirements stay marked as gaps until Andrew confirms them.
+    Repayable funding, tax credits, prizes and loans are labeled separately from grants.
+  </section>
+
+  <section id="runPanel" class="gr-run hidden">
+    <div class="gr-runhead">
+      <span><span id="runSpin">◍</span> <b id="runTitle">Funding agents running…</b></span>
+      <button id="runHide" class="btn small btn-ghost">Hide</button>
+    </div>
+    <pre id="runLog"></pre>
+  </section>
+
+  <section class="gr-controls">
+    <input id="search" class="search" type="search" placeholder="Filter program, funder, project, gap or contact…" />
+    <select id="statusFilter" class="mini-select"><option value="">All stages</option></select>
+    <select id="intakeFilter" class="mini-select">
+      <option value="">All intakes</option>
+      <option value="open">Open</option>
+      <option value="rolling">Rolling</option>
+      <option value="upcoming">Upcoming</option>
+      <option value="closed">Closed</option>
+      <option value="unknown">Unknown</option>
+    </select>
+    <select id="typeFilter" class="mini-select"><option value="">All funding types</option></select>
+    <select id="sortBy" class="mini-select">
+      <option value="deadline">Sort: actionable deadline</option>
+      <option value="score">Sort: score</option>
+      <option value="amount">Sort: maximum funding</option>
+      <option value="newest">Sort: newest verification</option>
+    </select>
+    <select id="viewMode" class="mini-select">
+      <option value="sheet">View: spreadsheet</option>
+      <option value="cards">View: application briefs</option>
+    </select>
+    <span id="visibleCount" class="gr-visible"></span>
+  </section>
+
+  <main id="board" class="gr-sheet-wrap"></main>
+  <div id="empty" class="empty hidden">No grant opportunities match these filters.</div>
+
+  <div id="emailModal" class="modal hidden">
+    <div class="modal-card gr-email-card">
+      <div class="seq-top">
+        <div>
+          <h3>Eligibility email</h3>
+          <div id="emailWho" class="seq-contact"></div>
+        </div>
+        <button id="emailClose" class="btn btn-ghost">Close</button>
+      </div>
+      <div class="gr-draft-note">Draft only — open the contact source, confirm the route, and review every factual claim before sending.</div>
+      <div class="gr-mailrow"><span>To</span><strong id="emailTo"></strong></div>
+      <div class="gr-mailrow"><span>Subject</span><strong id="emailSubject"></strong>
+        <button id="copySubject" class="btn xsmall">Copy</button>
+      </div>
+      <div id="emailBody" class="gr-email-body"></div>
+      <button id="copyEmail" class="btn btn-primary">Copy full email</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/grants.js"></script>
+</body>
+</html>

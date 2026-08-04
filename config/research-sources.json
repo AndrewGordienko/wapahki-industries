@@ -1,0 +1,164 @@
+{
+  "youtube_queries": [
+    "founder led sales full course",
+    "B2B prospecting masterclass",
+    "cold email copywriting masterclass",
+    "sales discovery call training",
+    "B2B qualification MEDDICC SPICED",
+    "sales objection handling masterclass",
+    "B2B negotiation and closing training",
+    "sales follow up cadence multichannel",
+    "cold email deliverability technical guide",
+    "B2B sales personalization relevance triggers",
+    "sales pipeline management metrics",
+    "AI assisted sales research and email writing"
+  ],
+  "google_queries": [
+    {
+      "kind": "article",
+      "query": "evidence based B2B prospecting targeting buying triggers practitioner guide"
+    },
+    {
+      "kind": "article",
+      "query": "founder led sales first customers practitioner playbook"
+    },
+    {
+      "kind": "article",
+      "query": "cold email copy relevance personalization reply rate practitioner research"
+    },
+    {
+      "kind": "article",
+      "query": "B2B sales discovery qualification objection handling practitioner guide"
+    },
+    {
+      "kind": "article",
+      "query": "B2B sales negotiation closing mutual action plan practitioner guide"
+    },
+    {
+      "kind": "article",
+      "query": "cold email deliverability SPF DKIM DMARC sending reputation official guide"
+    },
+    {
+      "kind": "course",
+      "query": "open university B2B sales course syllabus prospecting discovery negotiation"
+    },
+    {
+      "kind": "course",
+      "query": "open access sales training course founder led sales"
+    }
+  ],
+  "book_queries": [
+    "founder led sales",
+    "B2B prospecting",
+    "sales discovery qualification",
+    "sales negotiation closing",
+    "cold email outreach",
+    "sales pipeline management"
+  ],
+  "youtube_seed_urls": [],
+  "web_seed_urls": [
+    {
+      "url": "https://support.google.com/mail/answer/81126?hl=en",
+      "kind": "article",
+      "query": "official email sender requirements"
+    },
+    {
+      "url": "https://support.google.com/mail/answer/14229414?hl=en",
+      "kind": "article",
+      "query": "official email sender requirements FAQ"
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/15-387-entrepreneurial-sales-spring-2015/",
+      "kind": "course",
+      "query": "open entrepreneurial sales course"
+    },
+    {
+      "url": "https://academy.hubspot.com/courses/inbound-sales",
+      "kind": "course",
+      "query": "public inbound sales course"
+    },
+    {
+      "url": "https://trailhead.salesforce.com/content/learn/modules/prospecting-to-improve-sales",
+      "kind": "course",
+      "query": "public strategic prospecting course"
+    },
+    {
+      "url": "https://openstax.org/books/principles-marketing/pages/15-3-steps-in-the-personal-selling-process",
+      "kind": "open_textbook",
+      "query": "open textbook personal selling process",
+      "rights": "OpenStax Principles of Marketing section; CC BY-NC-SA 4.0"
+    },
+    {
+      "url": "https://open.umn.edu/opentextbooks/textbooks/the-power-of-selling",
+      "kind": "open_textbook",
+      "query": "open professional selling textbook",
+      "rights": "Open Textbook Library record; linked textbook is CC BY-NC-SA"
+    },
+    {
+      "url": "https://2012books.lardbucket.org/books/powerful-selling/s10-prospecting-and-qualifying-the.html",
+      "kind": "open_textbook",
+      "query": "open textbook prospecting and qualification",
+      "rights": "The Power of Selling chapter 7; CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://2012books.lardbucket.org/books/powerful-selling/s11-the-preapproach-the-power-of-p.html",
+      "kind": "open_textbook",
+      "query": "open textbook pre-call research and planning",
+      "rights": "The Power of Selling chapter 8; CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://2012books.lardbucket.org/books/powerful-selling/s13-the-presentation-the-power-of-.html",
+      "kind": "open_textbook",
+      "query": "open textbook sales discovery and presentation",
+      "rights": "The Power of Selling chapter 10; CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://2012books.lardbucket.org/books/powerful-selling/s14-handling-objections-the-power-.html",
+      "kind": "open_textbook",
+      "query": "open textbook objection handling",
+      "rights": "The Power of Selling chapter 11; CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://2012books.lardbucket.org/books/powerful-selling/s15-closing-the-sale-the-power-of-.html",
+      "kind": "open_textbook",
+      "query": "open textbook negotiation and closing",
+      "rights": "The Power of Selling chapter 12; CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://2012books.lardbucket.org/books/powerful-selling/s16-follow-up-the-power-of-providi.html",
+      "kind": "open_textbook",
+      "query": "open textbook post-sale follow-up",
+      "rights": "The Power of Selling chapter 13; CC BY-NC-SA 3.0"
+    },
+    {
+      "url": "https://www.foundingsales.com/introduction",
+      "kind": "book_excerpt",
+      "query": "public founder-led sales book introduction"
+    }
+  ],
+  "local_markdown_globs": [
+    "docs/cold-email-writing/*.md",
+    "docs/sales-sequence/*.md",
+    "docs/gnk-strategy/*.md"
+  ],
+  "local_exclude_globs": [
+    "docs/cold-email-writing/CRAFT.md",
+    "docs/cold-email-writing/README.md",
+    "docs/cold-email-writing/reddit-wisdom.md"
+  ],
+  "skip_domains": [
+    "facebook.com",
+    "instagram.com",
+    "linkedin.com",
+    "pinterest.com",
+    "tiktok.com",
+    "x.com"
+  ],
+  "languages": [
+    "en",
+    "en-GB",
+    "en-US"
+  ],
+  "max_results_per_query": 8,
+  "max_text_chars": 120000
+}

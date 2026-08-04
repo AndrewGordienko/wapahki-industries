@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.gnk.problem-radar</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/opt/homebrew/bin/node</string>
+    <string>/Users/andrewgordienko/Documents/wahpaki-industries/gnk-opportunity-engine/scripts/research-scout.mjs</string>
+    <string>--count</string>
+    <string>6</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/andrewgordienko/Documents/wahpaki-industries/gnk-opportunity-engine</string>
+
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Hour</key>
+    <integer>2</integer>
+    <key>Minute</key>
+    <integer>15</integer>
+  </dict>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>RESEARCH_RUNNER</key>
+    <string>codex</string>
+    <key>RESEARCH_MODEL</key>
+    <string>gpt-5.6-sol</string>
+    <key>RESEARCH_REASONING</key>
+    <string>high</string>
+  </dict>
+
+  <key>StandardOutPath</key>
+  <string>/Users/andrewgordienko/Documents/wahpaki-industries/gnk-opportunity-engine/data/logs/problem-radar.log</string>
+
+  <key>StandardErrorPath</key>
+  <string>/Users/andrewgordienko/Documents/wahpaki-industries/gnk-opportunity-engine/data/logs/problem-radar-error.log</string>
+</dict>
+</plist>

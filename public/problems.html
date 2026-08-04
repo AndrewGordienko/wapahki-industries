@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GnK Problem Radar</title>
+  <link rel="icon" type="image/png" href="/gnk.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/opportunity-workspace.css" />
+  <link rel="stylesheet" href="/problems.css" />
+</head>
+<body>
+  <header class="workspace-top">
+    <div class="workspace-brand">
+      <img src="/gnk.png" alt="" />
+      <div>
+        <h1>GnK Problem Radar</h1>
+        <p class="sub">Expensive Canadian problems we can build software to solve — and get paid a cut of the savings.</p>
+      </div>
+    </div>
+    <div class="workspace-actions">
+      <a class="btn btn-ghost" href="/">CRM &amp; accounts →</a>
+      <a class="btn btn-ghost" href="/wahpaki/grants">$ Grants</a>
+      <a class="btn btn-ghost" href="/gnk">GnK workspace</a>
+      <a class="btn btn-ghost" href="/outagehub">OutageHub</a>
+      <span class="run-count" id="runCount"></span>
+      <label class="count-field">how many
+        <input id="discoverCount" type="number" min="1" max="12" value="6" />
+      </label>
+      <button id="discoverBtn" class="btn btn-primary">⌕ Discover problems</button>
+    </div>
+  </header>
+
+  <section class="workspace-statbar" id="statbar"></section>
+
+  <section class="workspace-guardrail">
+    <b>Evidence rule:</b> company-advertised pain needs a named company, direct URL and observed date.
+    Market validation, target admission and buying intent stay visibly separate.
+  </section>
+
+  <div class="run-panel hidden" id="runPanel">
+    <div class="run-head">
+      <span><span class="spin" id="runSpin">◍</span> <b id="runTitle">Research scouts running…</b></span>
+      <button class="btn small btn-ghost" id="runHide">Hide</button>
+    </div>
+    <pre class="run-log" id="runLog"></pre>
+  </div>
+
+  <section class="workspace-controls radar-controls">
+    <input id="search" class="search" type="search" placeholder="Filter by problem, sector, company…" />
+    <div class="filter-row">
+      <select id="statusFilter" class="mini-select"><option value="">All statuses</option></select>
+      <select id="sortBy" class="mini-select">
+        <option value="score">Sort: score</option>
+        <option value="our_cut_high">Sort: our fee</option>
+        <option value="savings_high">Sort: savings</option>
+        <option value="updated_at">Sort: newest</option>
+      </select>
+    </div>
+  </section>
+
+  <main id="board" class="pboard"></main>
+
+  <div id="empty" class="empty hidden">
+    <p>No problems yet. Click <strong>⌕ Discover problems</strong> to send the research scouts hunting,
+      or run <code>npm run problems:discover</code>.</p>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <script src="/problems.js"></script>
+</body>
+</html>

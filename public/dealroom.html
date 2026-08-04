@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wapahki Dealroom</title>
+  <link rel="icon" type="image/svg+xml" href="/crm.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/pursuits.css" />
+</head>
+<body>
+  <header class="deal-topbar">
+    <a class="deal-brand" href="/">
+      <span class="deal-mark">W</span>
+      <span>
+        <strong>Wapahki Dealroom</strong>
+        <small>From a credible first conversation to a signed operating commitment</small>
+      </span>
+    </a>
+    <nav class="deal-nav">
+      <span id="safetyPill" class="safety-pill loading">Checking safeguards…</span>
+      <a href="/accounts.html">Accounts</a>
+      <a href="/outreach">Legacy outreach</a>
+      <a href="/problems">Problem radar</a>
+      <button class="quiet-button" id="archiveBtn">Recovered contacts</button>
+      <button class="primary-button" id="reviewBtn">Draft review <span id="reviewCount">0</span></button>
+    </nav>
+  </header>
+
+  <section class="deal-hero">
+    <div>
+      <p class="eyebrow">Commercial operating system</p>
+      <h1>Broker the whole deal, not one cold email.</h1>
+      <p>Choose the right business unit, build a sponsor coalition, prove a mutual advantage, and manage the explicit path to a paid pilot or partnership agreement.</p>
+    </div>
+    <div class="hero-rule">
+      <span>Non-negotiable</span>
+      <strong>No autonomous sending.</strong>
+      <small>Research, narratives, contacts, and every message require human review.</small>
+    </div>
+  </section>
+
+  <section id="metrics" class="deal-metrics"></section>
+
+  <section class="deal-controls">
+    <select id="productFilter" aria-label="Product"></select>
+    <select id="typeFilter" aria-label="Pursuit type"></select>
+    <select id="approvalFilter" aria-label="Approval status">
+      <option value="">All review states</option>
+      <option value="needs_review">Needs review</option>
+      <option value="approved">Approved</option>
+      <option value="rejected">Rejected</option>
+    </select>
+    <input id="pursuitSearch" type="search" placeholder="Find an account, contact, or problem…" />
+    <button class="quiet-button" id="refreshBtn">Refresh</button>
+  </section>
+
+  <main class="deal-shell">
+    <aside class="pursuit-rail">
+      <div class="rail-heading">
+        <span><strong id="railCount">0</strong> pursuits</span>
+        <small>Choose one account to work the deal.</small>
+      </div>
+      <div id="pursuitList" class="pursuit-list"></div>
+    </aside>
+    <section id="workspace" class="pursuit-workspace">
+      <div class="workspace-empty">
+        <div class="empty-orbit">◎</div>
+        <h2>Select a pursuit</h2>
+        <p>The account narrative, stakeholder map, proof plan, and commitment ladder will appear here.</p>
+      </div>
+    </section>
+  </main>
+
+  <div id="draftModal" class="deal-modal hidden" role="dialog" aria-modal="true">
+    <div class="deal-modal-card modal-wide">
+      <div class="modal-heading">
+        <div><p class="eyebrow">Human approval queue</p><h2>Outreach drafts</h2></div>
+        <button class="icon-button" data-close="draftModal" aria-label="Close">×</button>
+      </div>
+      <div id="draftReviewBody"></div>
+    </div>
+  </div>
+
+  <div id="composerModal" class="deal-modal hidden" role="dialog" aria-modal="true">
+    <div class="deal-modal-card">
+      <div class="modal-heading">
+        <div><p class="eyebrow">Next narrative step</p><h2 id="composerTitle">Draft message</h2></div>
+        <button class="icon-button" data-close="composerModal" aria-label="Close">×</button>
+      </div>
+      <label>Contact<select id="composerPerson"></select></label>
+      <label>Channel<select id="composerChannel"><option value="email">Email</option><option value="linkedin">LinkedIn</option></select></label>
+      <label id="composerSubjectLabel">Subject<input id="composerSubject" placeholder="Plain 2–8 word work topic" /></label>
+      <label>Message<textarea id="composerBody" rows="13" placeholder="One relevant observation, one honest question, and no canned follow-up language."></textarea></label>
+      <label>Why this draft / revision note<textarea id="composerRationale" rows="2"></textarea></label>
+      <div class="modal-actions">
+        <button class="quiet-button" data-close="composerModal">Cancel</button>
+        <button class="primary-button" id="composerSave">Queue for human review</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="archiveModal" class="deal-modal hidden" role="dialog" aria-modal="true">
+    <div class="deal-modal-card modal-wide">
+      <div class="modal-heading">
+        <div>
+          <p class="eyebrow">Quarantined recovery set</p>
+          <h2>Recovered contacts</h2>
+          <p>Restoring a contact does not make them sendable. Employment must still be verified.</p>
+        </div>
+        <button class="icon-button" data-close="archiveModal" aria-label="Close">×</button>
+      </div>
+      <div class="archive-search"><input id="archiveSearch" type="search" placeholder="Filter by company…" /><button class="quiet-button" id="archiveSearchBtn">Search</button></div>
+      <div id="archiveBody"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="deal-toast hidden"></div>
+  <script src="/pursuits.js"></script>
+</body>
+</html>

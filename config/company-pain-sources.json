@@ -1,0 +1,50 @@
+{
+  "_comment": "Shared evidence policy for the company-advertised-problem scouts used by GnK Problem Radar and OutageHub.",
+  "source_priority": [
+    "Company annual reports, regulatory filings, earnings releases, investor presentations and official transcripts",
+    "Company newsroom posts, engineering blogs, incident postmortems, status reports and executive conference talks",
+    "Company career pages, repeated job postings, workforce programs, academies, apprenticeship announcements and explicit skills-gap statements",
+    "Company RFPs/RFIs, procurement notices, modernization plans, remediation programs, vendor partnerships and implementation announcements",
+    "Reputable reporting that directly quotes a named company or executive, used only when the first-party source is unavailable"
+  ],
+  "evidence_rules": [
+    "Record the named company, a concise paraphrase, the direct URL, the publication or observed date, and the disclosed business consequence.",
+    "Separate the company's words from the scout's inference. Never turn a generic industry statistic into an account-specific claim.",
+    "A single ordinary job posting proves demand, not a talent shortage. Require repetition, a hiring cluster, a training investment, or an explicit shortage/capacity statement.",
+    "A vendor describing its customers' problem is market validation, not proof the vendor itself has that problem.",
+    "A procurement or modernization signal proves timing and spend intent, not that our proposed solution is suitable.",
+    "Prefer signals from the last 24 months. Older evidence needs a current corroborating signal.",
+    "Do not infer an individual's age, retirement plan, health, or personal circumstances.",
+    "For an ownership-transition candidate, require a named company's public succession, ownership, leadership, delegation, modernization, acquisition-integration or workflow-continuity signal. A founder/owner title or a person's appearance is not evidence.",
+    "An anonymous business-for-sale listing is market context, not a named target. Never try to reverse-identify the seller.",
+    "Do not invent quotes. Paraphrase briefly and preserve the direct source URL."
+  ],
+  "search_patterns": {
+    "company_admissions": [
+      "site:company-domain annual report operational challenge cost delay",
+      "site:company-domain earnings capacity constraint manual process",
+      "site:company-domain engineering postmortem incident customer impact",
+      "company executive interview bottleneck lost revenue downtime"
+    ],
+    "talent_bottlenecks": [
+      "company skills shortage hard to hire training academy",
+      "company repeated hiring specialist backlog capacity",
+      "company institutional knowledge workforce transition operations",
+      "company mainframe skills shortage engineer training program"
+    ],
+    "buying_signals": [
+      "company RFP RFI modernization workflow automation",
+      "company remediation program operational transformation investment",
+      "company vendor partnership reduce downtime backlog manual",
+      "company hiring cluster transformation data operations"
+    ],
+    "ownership_transitions": [
+      "company succession ownership transition new president general manager",
+      "company founder steps back appoints COO operations",
+      "company acquisition integration ERP operations modernization",
+      "company institutional knowledge handoff continuity workflow",
+      "company hiring general manager dispatch estimating controller bottleneck",
+      "family-owned company succession next generation leadership"
+    ]
+  }
+}

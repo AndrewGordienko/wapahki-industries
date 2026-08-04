@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Outreach OS</title>
+  <link rel="icon" type="image/svg+xml" href="/outreach-os.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/crm-grid.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" title="Outreach OS — Wapahki · GnK · OutageHub">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <line x1="4" y1="7" x2="11" y2="7"/><line x1="4" y1="12" x2="13" y2="12"/><line x1="4" y1="17" x2="11" y2="17"/>
+          <path d="M14 12 L20 9 L18 12 L20 15 Z" fill="currentColor" stroke="none"/>
+        </svg>
+      </span>
+      <span class="brand-name">Outreach<span class="brand-dim">OS</span></span>
+    </a>
+    <div class="view-switch" id="viewSwitch" aria-label="CRM view"></div>
+    <nav class="biz-tabs" id="bizTabs" aria-label="Businesses"></nav>
+    <div class="topbar-right">
+      <div class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4a6 6 0 104.47 10.03l4.25 4.24 1.41-1.41-4.24-4.25A6 6 0 0010 4zm0 2a4 4 0 110 8 4 4 0 010-8z"/></svg>
+        <input id="search" type="search" placeholder="Search accounts, people, titles…" autocomplete="off" />
+      </div>
+    </div>
+  </header>
+
+  <section class="subbar">
+    <div class="subbar-left">
+      <h1 id="bizTitle">Wapahki</h1>
+      <p id="bizTagline" class="tagline"></p>
+    </div>
+    <div class="subbar-stats" id="bizStats"></div>
+  </section>
+
+  <section class="toolbar">
+    <div class="toolbar-actions">
+      <div class="segmented" id="statusFilters" role="tablist"></div>
+      <a class="export-button" id="exportSheet" href="/api/crm/export.csv">Export sheet</a>
+    </div>
+    <div class="toolbar-meta" id="rowMeta"></div>
+  </section>
+
+  <main class="grid-wrap">
+    <div class="sheet-scroll" id="host"></div>
+    <div id="emptyState" class="empty hidden"></div>
+  </main>
+
+  <div id="seqModal" class="seq-modal hidden" role="dialog" aria-modal="true">
+    <div class="seq-card">
+      <div class="seq-head">
+        <div id="seqContact"></div>
+        <button class="icon-btn" id="seqClose" aria-label="Close">×</button>
+      </div>
+      <div id="seqActions" class="seq-actions"></div>
+      <div id="seqBody" class="seq-body"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/crm-grid.js"></script>
+</body>
+</html>

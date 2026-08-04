@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "runner": "codex",
+  "startedAt": "2026-07-29T00:39:13.447Z",
+  "completedAt": "2026-07-29T00:41:42.976Z",
+  "message": "Research complete. 1 opportunities were added or updated for review.",
+  "lastRunId": "research-2026-07-29T00-39-13-445Z",
+  "opportunitiesAdded": 1,
+  "totalOpportunities": 10,
+  "pid": null
+}

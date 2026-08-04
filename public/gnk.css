@@ -1,0 +1,47 @@
+.gnk-ratings {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+
+.gnk-ratings .idea-chip b {
+  color: var(--amber-text);
+  letter-spacing: .02em;
+}
+
+.modal-card.gnk-modal {
+  width: min(560px, 94vw);
+  max-height: 88vh;
+  overflow: auto;
+}
+
+.gnk-modal label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.gnk-modal input,
+.gnk-modal textarea,
+.gnk-modal select {
+  padding: 8px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 8px;
+  color: var(--text);
+  background: var(--panel);
+  font: inherit;
+  font-size: 14px;
+}
+
+.gnk-row3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+@media (max-width: 700px) {
+  .gnk-row3 { grid-template-columns: 1fr; }
+}

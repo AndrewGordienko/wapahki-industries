@@ -1,0 +1,47 @@
+{
+  "project": "gnk-opportunity-engine",
+  "defaultRunner": "codex",
+  "bus": {
+    "opportunities": "data/opportunities.json",
+    "researchState": "data/research-state.json",
+    "builds": "data/builds"
+  },
+  "agents": [
+    {
+      "id": "gnk-problem-radar",
+      "name": "Problem Radar",
+      "instructions": "agents/problem-radar/instructions.md",
+      "workspace": "openclaw-workspaces/gnk-problem-radar",
+      "agentDir": ".openclaw-agents/gnk-problem-radar/agent",
+      "model": "openai/gpt-5.4-mini",
+      "cadence": "nightly"
+    },
+    {
+      "id": "gnk-opportunity-underwriter",
+      "name": "Opportunity Underwriter",
+      "instructions": "agents/opportunity-underwriter/instructions.md",
+      "workspace": "openclaw-workspaces/gnk-opportunity-underwriter",
+      "agentDir": ".openclaw-agents/gnk-opportunity-underwriter/agent",
+      "model": "openai/gpt-5.4-mini",
+      "cadence": "after-radar"
+    },
+    {
+      "id": "gnk-evidence-auditor",
+      "name": "Evidence Auditor",
+      "instructions": "agents/evidence-auditor/instructions.md",
+      "workspace": "openclaw-workspaces/gnk-evidence-auditor",
+      "agentDir": ".openclaw-agents/gnk-evidence-auditor/agent",
+      "model": "openai/gpt-5.4-mini",
+      "cadence": "after-underwriting"
+    },
+    {
+      "id": "gnk-mvp-architect",
+      "name": "MVP Architect",
+      "instructions": "agents/mvp-architect/instructions.md",
+      "workspace": "openclaw-workspaces/gnk-mvp-architect",
+      "agentDir": ".openclaw-agents/gnk-mvp-architect/agent",
+      "model": "openai/gpt-5.4-mini",
+      "cadence": "human-approved"
+    }
+  ]
+}

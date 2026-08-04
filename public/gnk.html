@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GnK — opportunity studio</title>
+  <link rel="icon" type="image/png" href="/gnk.png" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="/opportunity-workspace.css" />
+  <link rel="stylesheet" href="/gnk.css" />
+</head>
+<body>
+  <header class="workspace-top">
+    <div class="workspace-brand">
+      <img src="/gnk.png" alt="" />
+      <div>
+        <h1>GnK</h1>
+        <p>Find evidenced problems. Scope a focused build. Prove a measurable result.</p>
+      </div>
+    </div>
+    <div class="workspace-actions">
+      <a class="btn btn-ghost" href="/?c=gnk">GnK outreach</a>
+      <a class="btn btn-ghost" href="/wahpaki/grants">Grants</a>
+      <a class="btn btn-ghost" href="/outagehub">OutageHub</a>
+      <a class="btn btn-ghost" href="/problems">Problem Radar</a>
+      <button class="btn btn-ghost" id="addBtn">+ Add manually</button>
+      <label class="idea-research-count">ideas
+        <input id="discoverCount" type="number" min="1" max="12" value="6" />
+      </label>
+      <button class="btn btn-primary" id="discoverBtn">Find ideas</button>
+    </div>
+  </header>
+
+  <section id="statbar" class="workspace-statbar"></section>
+
+  <section class="workspace-guardrail">
+    <b>Working claim:</b> these are source-backed opportunity hypotheses for GnK to test.
+    They are not customer-confirmed problems or promised outcomes until discovery and a paid evidence sprint establish them.
+  </section>
+
+  <section id="runPanel" class="idea-run hidden">
+    <div class="idea-run-head">
+      <span><span id="runSpin" class="spin">◍</span> <b id="runTitle">Research scouts finding ideas…</b></span>
+      <button id="runHide" class="btn small btn-ghost">Hide</button>
+    </div>
+    <pre id="runLog"></pre>
+  </section>
+
+  <section class="workspace-controls">
+    <input id="search" type="search" placeholder="Search ideas, evidence or sectors…" />
+    <div class="idea-segments" id="statusSeg"></div>
+    <select id="categoryFilter" class="idea-select" aria-label="Filter by sector"></select>
+    <select id="sortBy" class="idea-select" aria-label="Sort ideas"></select>
+    <span id="visibleCount" class="workspace-count"></span>
+  </section>
+
+  <main id="board" class="idea-board"></main>
+  <div id="empty" class="idea-empty hidden">No GNK ideas match these filters.</div>
+
+  <!-- Add / edit modal -->
+  <div id="projModal" class="modal hidden">
+    <div class="modal-card gnk-modal">
+      <div class="seq-top"><h3 id="projTitle">New problem</h3><button id="projClose" class="btn btn-ghost">Close</button></div>
+      <label>Title<input id="f_title" type="text" placeholder="Short name for the problem/project" /></label>
+      <label>Domain<input id="f_domain" type="text" placeholder="climate · health · civic · education · food · housing …" /></label>
+      <label>The problem in society<textarea id="f_problem" rows="2" placeholder="What's broken / what's the pain?"></textarea></label>
+      <label>Who it affects<textarea id="f_who" rows="2" placeholder="Who suffers from it, how many, where"></textarea></label>
+      <label>Why it matters<textarea id="f_why" rows="2" placeholder="Why it's worth doing / the stakes"></textarea></label>
+      <label>What we could build<textarea id="f_build" rows="2" placeholder="The focused system GnK could build"></textarea></label>
+      <div class="gnk-row3">
+        <label>Interest (1-5)<input id="f_interest" type="number" min="1" max="5" value="3" /></label>
+        <label>Feasibility (1-5)<input id="f_feas" type="number" min="1" max="5" value="3" /></label>
+        <label>Status
+          <select id="f_status"><option value="idea">idea</option><option value="scoping">scoping</option><option value="building">building</option><option value="shelved">shelved</option></select>
+        </label>
+      </div>
+      <label>Links / notes (optional)<input id="f_links" type="text" placeholder="source URLs or a note" /></label>
+      <div class="modal-actions">
+        <button class="btn btn-ghost" id="projCancel">Cancel</button>
+        <button class="btn btn-primary" id="projSave">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/idea-workspace.js"></script>
+  <script src="/gnk.js"></script>
+</body>
+</html>

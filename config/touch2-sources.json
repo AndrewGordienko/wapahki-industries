@@ -1,0 +1,86 @@
+{
+  "_note": "Second-touchpoint (first follow-up) research surface. Mirrors config/research-sources.json but aims every query at what to send AFTER the cold open goes unanswered: the T2 bump. Build into a separate corpus with WAHPAKI_RESEARCH_CORPUS=data/research/touch2-corpus.json and distill with scripts/touch2-learn.js.",
+  "youtube_queries": [
+    "cold email follow up after no reply",
+    "how to write a follow up email that gets a response",
+    "sales follow up email what to say second email",
+    "value add follow up email instead of just checking in",
+    "follow up email without being annoying B2B sales",
+    "cold email bump message reply rate",
+    "how many follow ups cold email cadence timing",
+    "B2B follow up email sequence templates that book meetings"
+  ],
+  "google_queries": [
+    {
+      "kind": "article",
+      "query": "B2B cold email follow up after no response best practices practitioner guide"
+    },
+    {
+      "kind": "article",
+      "query": "sales follow up email cadence how many follow ups timing between touches research"
+    },
+    {
+      "kind": "article",
+      "query": "value add follow up email new angle instead of just checking in practitioner"
+    },
+    {
+      "kind": "article",
+      "query": "follow up email reply rate lift data study benchmark"
+    },
+    {
+      "kind": "article",
+      "query": "same thread vs new thread follow up email deliverability practitioner"
+    },
+    {
+      "kind": "course",
+      "query": "sales follow up email training module prospecting cadence"
+    }
+  ],
+  "book_queries": [
+    "sales follow up email",
+    "cold email follow up sequence",
+    "follow up persistence prospecting sales",
+    "sales cadence multichannel follow up"
+  ],
+  "_reddit_curation_note": "Only these manually reviewed threads enter touch2-learn.js. The raw Reddit corpus stays broad for auditability; review and add IDs here after future scrapes.",
+  "reddit_include_ids": [
+    "1tw6tts",
+    "1poz2ul",
+    "1jzjb2k",
+    "1rvskom",
+    "1kh93nm",
+    "1kbwks8",
+    "1kjbu34"
+  ],
+  "youtube_seed_urls": [],
+  "web_seed_urls": [
+    {
+      "url": "https://2012books.lardbucket.org/books/powerful-selling/s16-follow-up-the-power-of-providi.html",
+      "kind": "open_textbook",
+      "query": "open textbook follow-up and relationship building",
+      "rights": "The Power of Selling chapter 13; CC BY-NC-SA 3.0"
+    }
+  ],
+  "local_markdown_globs": [
+    "docs/second-touchpoint/*.md"
+  ],
+  "local_exclude_globs": [
+    "docs/second-touchpoint/README.md",
+    "docs/second-touchpoint/touch2-wisdom.md"
+  ],
+  "skip_domains": [
+    "facebook.com",
+    "instagram.com",
+    "linkedin.com",
+    "pinterest.com",
+    "tiktok.com",
+    "x.com"
+  ],
+  "languages": [
+    "en",
+    "en-GB",
+    "en-US"
+  ],
+  "max_results_per_query": 8,
+  "max_text_chars": 120000
+}

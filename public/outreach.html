@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Outreach — spreadsheet</title>
+  <link rel="icon" type="image/svg+xml" href="/spreadsheet.svg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    /* page-local: campaign switcher + full-width scrolling grid */
+    .ob-top { display:flex; align-items:center; gap:16px; padding:14px 20px; border-bottom:1px solid var(--border); position:sticky; top:0; background:var(--panel); z-index:20; }
+    .ob-title { font-weight:700; font-size:16px; }
+    .ob-tabs { display:flex; gap:6px; }
+    .ob-tab { padding:6px 12px; border:1px solid var(--border); border-radius:8px; cursor:pointer; font-size:13px; color:var(--text-2); background:var(--panel); text-decoration:none; }
+    .ob-tab.active { border-color:var(--accent); color:var(--accent-text); background:var(--accent-soft); font-weight:600; }
+    .ob-tab .cnt { color:var(--muted); font-size:11px; margin-left:6px; }
+    .ob-search { margin-left:auto; padding:7px 10px; border:1px solid var(--border-strong); border-radius:8px; font-size:13px; min-width:220px; }
+    .ob-wrap { overflow-x:auto; padding:0 0 60px; }
+    .ob-note { padding:6px 20px; color:var(--muted); font-size:12px; }
+  </style>
+</head>
+<body>
+  <div class="ob-top">
+    <span class="ob-title">Outreach</span>
+    <a class="ob-tab" href="/">CRM</a>
+    <div class="ob-tabs" id="tabs"></div>
+    <a class="ob-tab" href="/gnk">GnK</a>
+    <a class="ob-tab" href="/wahpaki/grants">Wapahki grants</a>
+    <a class="ob-tab" href="/outagehub/grants">OutageHub grants</a>
+    <a class="ob-tab" href="/outagehub">OutageHub</a>
+    <input id="search" class="ob-search" type="search" placeholder="Filter by company, person, title…" />
+  </div>
+  <div class="ob-note" id="stats"></div>
+  <div class="ob-wrap"><div id="host"></div></div>
+
+  <div id="seqModal" class="modal hidden">
+    <div class="modal-card seq-card">
+      <div class="seq-top">
+        <div><h3>Sequence</h3><div id="seqContact" class="seq-contact"></div></div>
+        <button id="seqClose" class="btn btn-ghost">Close</button>
+      </div>
+      <div id="seqBody"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/outreach.js"></script>
+</body>
+</html>
