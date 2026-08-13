@@ -157,7 +157,7 @@ col.c-email   { width: 210px; }
 col.c-linkedin{ width: 46px; }
 col.c-why     { width: 250px; }
 col.c-status  { width: 118px; }
-col.c-touch   { width: 224px; }
+col.c-touch   { width: 390px; }
 
 .sheet thead th {
   position: sticky; top: 0; z-index: 6;
@@ -226,22 +226,35 @@ select.s-status:focus { outline: none; border-color: var(--blue-hair); box-shado
 .status-replied { border-color: var(--blue); color: var(--blue-strong); }
 .status-not_interested { color: var(--ink-3); }
 
-.s-touch { color: var(--ink-2); font-size: 11.5px; line-height: 1.4; cursor: pointer; }
+.sheet td.s-touch {
+  padding: 14px 16px 18px; color: var(--ink-2); font-size: 12px;
+  line-height: 1.5; white-space: normal; overflow-wrap: anywhere; cursor: pointer;
+}
 .s-touch.em { background: #fbfdff; }
 .s-touch.li { background: #fbfcff; }
 .s-touch:hover { background: var(--blue-tint) !important; }
+.touch-meta { display: flex; align-items: flex-start; gap: 8px; margin-bottom: 10px; }
 .ttag {
-  display: inline-block; font-size: 10px; font-weight: 700; letter-spacing: .02em;
-  padding: 1px 6px; border-radius: 4px; margin-right: 6px;
+  display: inline-block; flex-shrink: 0; font-size: 10px; font-weight: 700; letter-spacing: .02em;
+  padding: 1px 6px; border-radius: 4px;
   color: var(--blue); background: var(--blue-tint); border: 1px solid var(--blue-hair);
 }
 .s-touch.li .ttag { color: #0a66c2; background: #e7f0f8; border-color: #cfe0f0; }
 .ttag.pending { color: var(--ink-3); background: var(--grey-tint); border-color: var(--line); }
 .s-touch.sent .ttag { color: var(--green); background: var(--green-tint); border-color: #cbe6d3; }
 .touch-time {
-  display: block; margin: 0 0 5px; color: var(--blue-strong); font-size: 10px;
+  display: block; color: var(--blue-strong); font-size: 10px;
   font-weight: 600; line-height: 1.35;
 }
+.touch-subject {
+  margin-bottom: 9px; color: var(--ink); font-size: 12.5px; font-weight: 650;
+  line-height: 1.4;
+}
+.touch-subject span {
+  display: block; margin-bottom: 2px; color: var(--ink-3); font-size: 9px;
+  font-weight: 700; letter-spacing: .045em; text-transform: uppercase;
+}
+.touch-copy { color: var(--ink-2); white-space: pre-wrap; overflow-wrap: anywhere; }
 
 /* ---- Buttons ---------------------------------------------------------- */
 .btn {

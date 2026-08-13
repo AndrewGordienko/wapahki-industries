@@ -583,10 +583,17 @@ function touchCells(person) {
     }
     const linkedin = message.channel === 'linkedin';
     const sent = message.status === 'sent';
-    const raw = (message.subject ? `${message.subject} — ` : '') + (message.body || '').replace(/\s+/g, ' ').trim();
+    const subject = (message.subject || '').trim();
+    const body = (message.body || '').trim();
     const timing = message.scheduled_local || message.send_window || '';
     return `<td class="s-touch ${linkedin ? 'li' : 'em'} ${sent ? 'sent' : ''}" data-seq="${person.person_id}" title="${esc(timing || 'Open, edit or copy the full message')}">
-      <span class="ttag">${linkedin ? 'in' : '✉'} T${touch}${sent ? ' ✓' : ''}</span>${timing ? `<span class="touch-time">${esc(timing)}</span>` : ''}${esc(trunc(raw, 150))}</td>`;
+      <div class="touch-meta">
+        <span class="ttag">${linkedin ? 'in' : '✉'} T${touch}${sent ? ' ✓' : ''}</span>
+        ${timing ? `<span class="touch-time">${esc(timing)}</span>` : ''}
+      </div>
+      ${subject ? `<div class="touch-subject"><span>Subject</span>${esc(subject)}</div>` : ''}
+      <div class="touch-copy">${esc(body || 'No message body yet.')}</div>
+    </td>`;
   }).join('');
 }
 
